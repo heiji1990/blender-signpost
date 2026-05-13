@@ -1,0 +1,30 @@
+{
+    "type":  "tutorial",
+    "title":  "ループアニメーション制作術 - SNSで映える3秒ループ",
+    "url":  "https://www.youtube.com/watch?v=6SDR_rXSPKM",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "LoopArtist",
+    "language":  "ja",
+    "level":  [
+                  "intermediate"
+              ],
+    "categories":  [
+                       "loop_animation",
+                       "sns_portfolio"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "35分",
+    "recommendedOrder":  1,
+    "summary":  "InstagramやXで人気のループアニメーションをBlenderで作る方法。NLAエディターとグラフエディターの使い方も解説。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "4.1",
+    "publishedAt":  "2年前"
+}

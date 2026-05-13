@@ -1,0 +1,22 @@
+{
+    "type":  "account",
+    "name":  "Tom Studio",
+    "url":  "https://www.youtube.com/@TomStudioCG",
+    "platform":  "youtube",
+    "creator":  "Tom Studio",
+    "language":  "ja",
+    "level":  [
+                  "beginner",
+                  "intermediate",
+                  "career"
+              ],
+    "categories":  [
+                       "beginner",
+                       "freelance",
+                       "modeling"
+                   ],
+    "summary":  "登録者23万人超の日本語Blenderチャンネル。初心者向けチュートリアルから副業・フリーランス活用まで幅広く解説。KADOKAWA出版のBlender入門書の著者でもある。",
+    "followers":  "23万人超",
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

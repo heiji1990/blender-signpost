@@ -1,0 +1,81 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { levelLabels, platformLabels, platformIcons, categoryLabels } from '../../lib/labels';
+
+export async function getStaticPaths() {
+  const courses = await getCollection('courses');
+  return courses.map((c) => ({ params: { slug: c.id }, props: { entry: c } }));
+}
+
+const { entry } = Astro.props;
+const d = entry.data;
+const linkUrl = d.isAffiliate && d.affiliateUrl ? d.affiliateUrl : d.url;
+---
+
+<BaseLayout title={d.title} description={d.summary}>
+  <div class="max-w-3xl mx-auto px-4 py-10">
+    <a href="/courses" class="text-sm text-gray-500 hover:text-gray-700 mb-6 inline-block">← 有料講座一覧</a>
+
+    <div class="bg-white rounded-2xl border border-[var(--color-border)] p-6 sm:p-8">
+      <div class="flex flex-wrap gap-2 mb-4">
+        <span class="flex items-center gap-1 text-sm text-gray-600">
+          {platformIcons[d.platform]}{platformLabels[d.platform] ?? d.platform}
+        </span>
+        <span class="badge-paid">有料</span>
+        {d.price && <span class="text-sm font-semibold text-gray-700">¥{d.price.toLocaleString()}</span>}
+        {d.isPr && <span class="badge-pr">PR</span>}
+        {d.isAffiliate && !d.isPr && <span class="badge-affiliate">アフィリエイト</span>}
+      </div>
+
+      <h1 class="text-xl font-bold text-gray-900 mb-4 leading-snug">{d.title}</h1>
+      <p class="text-gray-600 text-sm leading-relaxed mb-6">{d.summary}</p>
+
+      {d.comment && (
+        <div class="bg-blue-50 border-l-4 border-[var(--color-blender-blue)] p-4 mb-6 rounded-r-lg">
+          <p class="text-sm text-gray-700">{d.comment}</p>
+        </div>
+      )}
+
+      <dl class="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-6 text-sm">
+        <div><dt class="text-xs text-gray-500 mb-1">講師</dt><dd class="font-medium">{d.creator}</dd></div>
+        {d.duration && <div><dt class="text-xs text-gray-500 mb-1">時間</dt><dd class="font-medium">{d.duration}</dd></div>}
+        <div><dt class="text-xs text-gray-500 mb-1">言語</dt><dd class="font-medium">{d.language === 'ja' ? '日本語' : '英語'}</dd></div>
+      </dl>
+
+      <div class="mb-4">
+        <p class="text-xs text-gray-500 mb-2">対象レベル</p>
+        <div class="flex flex-wrap gap-2">
+          {d.level.map((l: string) => <span class="badge-level">{levelLabels[l] ?? l}</span>)}
+        </div>
+      </div>
+      <div class="mb-6">
+        <p class="text-xs text-gray-500 mb-2">カテゴリ</p>
+        <div class="flex flex-wrap gap-2">
+          {d.categories.map((cat: string) => <span class="tag">{categoryLabels[cat] ?? cat}</span>)}
+        </div>
+      </div>
+
+      <div class="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-6 text-sm text-amber-800">
+        <strong>掲載ポリシー：</strong> 公開情報（タイトル・講師名・販売ページ・価格帯・対象レベル）のみを掲載しています。
+        有料部分の内容は掲載していません。
+      </div>
+
+      <a
+        href={linkUrl}
+        target="_blank"
+        rel={d.isAffiliate ? 'nofollow noopener noreferrer' : 'noopener noreferrer'}
+        class="inline-flex items-center gap-2 px-6 py-3 bg-[var(--color-blender-blue)] text-white font-semibold rounded-lg hover:bg-[var(--color-blender-blue-light)] transition-colors"
+      >
+        {platformIcons[d.platform]} 講座ページを見る
+      </a>
+
+      {(d.isAffiliate || d.isPr) && (
+        <p class="text-xs text-gray-400 mt-3">
+          ※ {d.isPr ? 'PR掲載です。' : 'アフィリエイトリンクを含みます。'}
+          <a href="/advertising" class="underline ml-1">広告・PR表記についてはこちら</a>
+        </p>
+      )}
+    </div>
+  </div>
+</BaseLayout>

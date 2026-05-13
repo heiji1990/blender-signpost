@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "フォトリアルCG建築ビジュアライゼーション",
+    "url": "https://www.udemy.com/course/blender-architectural-visualization-complete-house-project/",
+    "platform": "udemy",
+    "priceType": "paid",
+    "price": 3200,
+    "creator": "CGwisdom",
+    "language": "en",
+    "level": ["intermediate", "advanced"],
+    "categories": ["photorealistic", "modeling", "lighting"],
+    "goals": [],
+    "duration": "18時間",
+    "recommendedOrder": 1,
+    "summary": "建築パースに特化したフォトリアルCG制作講座。インテリア・エクステリアの照明設定から仕上げまでをプロの手法で解説。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-13",
+    "status": "active"
+}

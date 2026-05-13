@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "Geometry Nodes マスタークラス",
+    "url": "https://www.udemy.com/course/mastering-geometry-nodes-in-blender/",
+    "platform": "udemy",
+    "priceType": "paid",
+    "price": 3600,
+    "creator": "Businge Ismail",
+    "language": "en",
+    "level": ["intermediate", "advanced"],
+    "categories": ["geometry_nodes", "modeling"],
+    "goals": [],
+    "duration": "20時間",
+    "recommendedOrder": 1,
+    "summary": "Geometry Nodesの全ノードを体系的に学べる英語の上級講座。プロシージャルモデリングからアニメーションまで幅広くカバー。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-13",
+    "status": "active"
+}

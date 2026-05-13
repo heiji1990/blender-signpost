@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import FilterableList from '../../../components/filters/FilterableList';
+
+const tutorials = await getCollection('tutorials', ({ data }) => data.status === 'active');
+const items = tutorials.map((t) => ({
+  id: t.id,
+  title: t.data.title,
+  url: t.data.url,
+  type: t.data.type,
+  platform: t.data.platform,
+  priceType: t.data.priceType,
+  creator: t.data.creator,
+  level: t.data.level,
+  categories: t.data.categories,
+  summary: t.data.summary,
+  affiliateUrl: t.data.affiliateUrl ?? undefined,
+  isAffiliate: t.data.isAffiliate,
+  isPr: t.data.isPr,
+  duration: t.data.duration ?? undefined,
+  publishedAt: t.data.publishedAt ?? undefined,
+  blenderVersion: t.data.blenderVersion ?? undefined,
+}));
+---
+
+<BaseLayout
+  title="Tutorials"
+  description="Find Blender tutorials by level and category. Browse YouTube tutorials, official docs, and more."
+>
+  <div class="max-w-6xl mx-auto px-4 py-10">
+    <div class="mb-8">
+      <h1 class="text-2xl font-bold text-gray-900 mb-2">▶️ Tutorials</h1>
+      <p class="text-gray-600 text-sm">Browse free Blender tutorials by level, category, and platform.</p>
+    </div>
+    <FilterableList items={items} showBlenderVersion={true} showPublishedYear={true} lang="en" client:load />
+  </div>
+</BaseLayout>

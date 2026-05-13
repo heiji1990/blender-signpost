@@ -1,0 +1,31 @@
+{
+    "type":  "tutorial",
+    "title":  "Shader Editor完全ガイド - マテリアルノードの基本",
+    "url":  "https://www.youtube.com/watch?v=kB_PN46K99U",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "ShaderSensei",
+    "language":  "ja",
+    "level":  [
+                  "beginner",
+                  "intermediate"
+              ],
+    "categories":  [
+                       "beginner",
+                       "cell_look"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "1時間",
+    "recommendedOrder":  3,
+    "summary":  "Shader Editorのノードシステムをゼロから解説。PBRマテリアルの基本から、テクスチャの貼り方、カスタムシェーダーの作り方まで。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "4.0",
+    "publishedAt":  "2年前"
+}

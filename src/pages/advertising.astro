@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const lastUpdated = '2026-05-13';
+---
+
+<BaseLayout title="広告・PR表記" noIndex>
+  <div class="max-w-2xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-bold text-gray-900 mb-2">広告・PR表記</h1>
+    <p class="text-xs text-gray-500 mb-8">最終更新: {lastUpdated}</p>
+
+    <div class="prose prose-sm max-w-none text-gray-700 space-y-6">
+      <section>
+        <h2 class="text-lg font-bold mb-2">アフィリエイトリンクについて</h2>
+        <p>当サイトは、以下のアフィリエイトプログラムに参加しています。アフィリエイトリンクを通じて購入・申し込みが行われた場合、当サイトは手数料を受け取ることがあります。</p>
+        <ul class="list-disc list-inside space-y-1 mt-2">
+          <li>Udemy アフィリエイトプログラム</li>
+          <li>Coloso アフィリエイトプログラム</li>
+          <li>Amazonアソシエイト</li>
+          <li>楽天アフィリエイト</li>
+          <li>その他アフィリエイトプログラム</li>
+        </ul>
+        <p class="mt-2">アフィリエイトリンクを含むコンテンツには「アフィリエイト」バッジを表示しています。</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">PR掲載について</h2>
+        <p>企業・クリエイターからの依頼による有償掲載コンテンツには「PR」バッジを表示しています。PR掲載であることを明示した上で、内容の正確性を確保するよう努めています。</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">掲載コンテンツの選定基準</h2>
+        <p>当サイトは以下の方針で掲載コンテンツを選定しています：</p>
+        <ul class="list-disc list-inside space-y-1 mt-2">
+          <li>学習者にとって有益なものを優先</li>
+          <li>ランキングは広告費・アフィリエイト手数料の順にしない</li>
+          <li>レビューは良い点だけでなく注意点も掲載</li>
+          <li>有料講座は公開情報のみ掲載し、有料部分の内容は掲載しない</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">Google AdSenseについて</h2>
+        <p>当サイトはGoogle AdSenseを使用した広告を掲載することがあります。Googleはユーザーの興味に基づいた広告を表示するためにCookieを使用します。</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">お問い合わせ</h2>
+        <p>広告・PR掲載に関するお問い合わせは<a href="/contact" class="text-[var(--color-blender-blue)] underline">お問い合わせフォーム</a>（種別「PR・スポンサー」を選択）からご連絡ください。</p>
+      </section>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,194 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import ContentCard from '../../components/cards/ContentCard.astro';
+
+const tutorials = await getCollection('tutorials', ({ data }) => data.status === 'active');
+const courses = await getCollection('courses', ({ data }) => data.status === 'active');
+const addons = await getCollection('addons', ({ data }) => data.status === 'active');
+const routes = await getCollection('routes');
+
+const latestTutorials = tutorials.slice(0, 6);
+const featuredCourses = courses.slice(0, 4);
+const featuredAddons = addons.slice(0, 4);
+
+const popularCategories = [
+  { key: 'beginner', label: 'Beginner', icon: '🌱', href: '/en/tutorials?cat=beginner' },
+  { key: 'geometry_nodes', label: 'Geometry Nodes', icon: '🔮', href: '/en/tutorials?cat=geometry_nodes' },
+  { key: 'cell_look', label: 'Cel Look', icon: '🎨', href: '/en/tutorials?cat=cell_look' },
+  { key: 'loop_animation', label: 'Loop Animation', icon: '🔄', href: '/en/tutorials?cat=loop_animation' },
+  { key: 'motion_design', label: 'Motion Design', icon: '✨', href: '/en/tutorials?cat=motion_design' },
+  { key: 'addon_usage', label: 'Add-ons', icon: '🔧', href: '/en/addons' },
+];
+---
+
+<BaseLayout title="Blender Signpost - Find Blender Learning Content by Technique">
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[var(--color-blender-blue)] to-blue-900 text-white py-16 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-3xl sm:text-4xl font-bold mb-3">🧭 Blender Signpost</h1>
+      <p class="text-lg sm:text-xl text-blue-100 mb-8">Find Blender learning content by what you want to create</p>
+      <p class="text-blue-200 text-sm mb-8">Tutorials · Courses · Add-ons · Learning Routes — organized by goal</p>
+
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a
+          href="/en/routes"
+          class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[var(--color-blender-orange)] text-white font-semibold rounded-lg hover:bg-[var(--color-blender-orange-light)] transition-colors"
+        >
+          🗺️ Browse by Goal
+        </a>
+        <a
+          href="/en/tutorials"
+          class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white/10 text-white font-semibold rounded-lg hover:bg-white/20 transition-colors border border-white/30"
+        >
+          📚 Browse Tutorials
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Categories -->
+  <section class="py-12 px-4 bg-[var(--color-surface-alt)]">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-xl font-bold mb-6 text-gray-800">🔥 Popular Categories</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+        {popularCategories.map((cat) => (
+          <a
+            href={cat.href}
+            class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl border border-[var(--color-border)] hover:border-[var(--color-blender-blue)] hover:shadow-sm transition-all text-center"
+          >
+            <span class="text-2xl">{cat.icon}</span>
+            <span class="text-xs font-medium text-gray-700">{cat.label}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Routes -->
+  <section class="py-12 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">🗺️ Learning Routes</h2>
+        <a href="/en/routes" class="text-sm text-[var(--color-blender-blue)] hover:underline">See all →</a>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {routes.slice(0, 3).map((route) => (
+          <a
+            href={`/en/routes/${route.id}`}
+            class="flex items-start gap-4 p-4 bg-white rounded-xl border border-[var(--color-border)] hover:shadow-md transition-shadow"
+          >
+            <div>
+              <p class="font-semibold text-sm text-gray-900 mb-1">{route.data.title}</p>
+              <p class="text-xs text-gray-500 line-clamp-2">{route.data.description}</p>
+              <p class="text-xs text-[var(--color-blender-blue)] mt-2">Level: {route.data.targetLevel}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Tutorials -->
+  <section class="py-12 px-4 bg-[var(--color-surface-alt)]">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">▶️ Latest Tutorials</h2>
+        <a href="/en/tutorials" class="text-sm text-[var(--color-blender-blue)] hover:underline">See all →</a>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {latestTutorials.map((t) => (
+          <ContentCard
+            id={t.id}
+            title={t.data.title}
+            url={t.data.url}
+            type={t.data.type}
+            platform={t.data.platform}
+            priceType={t.data.priceType}
+            creator={t.data.creator}
+            level={t.data.level}
+            categories={t.data.categories}
+            summary={t.data.summary}
+            affiliateUrl={t.data.affiliateUrl}
+            isAffiliate={t.data.isAffiliate}
+            isPr={t.data.isPr}
+            duration={t.data.duration}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Courses -->
+  <section class="py-12 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">🎓 Featured Courses</h2>
+        <a href="/en/courses" class="text-sm text-[var(--color-blender-blue)] hover:underline">See all →</a>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {featuredCourses.map((c) => (
+          <ContentCard
+            id={c.id}
+            title={c.data.title}
+            url={c.data.url}
+            type={c.data.type}
+            platform={c.data.platform}
+            priceType={c.data.priceType}
+            creator={c.data.creator}
+            level={c.data.level}
+            categories={c.data.categories}
+            summary={c.data.summary}
+            affiliateUrl={c.data.affiliateUrl}
+            isAffiliate={c.data.isAffiliate}
+            isPr={c.data.isPr}
+            duration={c.data.duration}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Add-ons -->
+  <section class="py-12 px-4 bg-[var(--color-surface-alt)]">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">🔧 Featured Add-ons</h2>
+        <a href="/en/addons" class="text-sm text-[var(--color-blender-blue)] hover:underline">See all →</a>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {featuredAddons.map((a) => (
+          <ContentCard
+            id={a.id}
+            title={a.data.title}
+            url={a.data.url}
+            type={a.data.type}
+            platform={a.data.platform}
+            priceType={a.data.priceType}
+            creator={a.data.creator}
+            level={a.data.level}
+            categories={a.data.categories}
+            summary={a.data.summary}
+            affiliateUrl={a.data.affiliateUrl}
+            isAffiliate={a.data.isAffiliate}
+            isPr={a.data.isPr}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact CTA -->
+  <section class="py-12 px-4 bg-[var(--color-blender-blue)] text-white">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-xl font-bold mb-3">Contact Us</h2>
+      <p class="text-blue-200 text-sm mb-6">To request a listing, suggest corrections, or get in touch</p>
+      <a
+        href="/en/contact"
+        class="px-5 py-2.5 bg-white/10 text-white font-semibold rounded-lg hover:bg-white/20 transition-colors border border-white/30"
+      >
+        Contact
+      </a>
+    </div>
+  </section>
+</BaseLayout>

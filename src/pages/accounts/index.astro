@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { levelLabels, categoryLabels } from '../../lib/labels';
+
+const accounts = await getCollection('accounts', ({ data }) => data.status === 'active');
+
+const platformIcons: Record<string, string> = {
+  youtube: '▶️', x: '🐦', instagram: '📸', web: '🌐',
+};
+const platformLabels: Record<string, string> = {
+  youtube: 'YouTube', x: 'X (Twitter)', instagram: 'Instagram', web: 'Web',
+};
+---
+
+<BaseLayout
+  title="参考SNSアカウント一覧"
+  description="Blenderを学ぶ上で参考になるSNSアカウントを用途・カテゴリ別に紹介。YouTube・X・Instagramのクリエイターを掲載。"
+>
+  <div class="max-w-6xl mx-auto px-4 py-10">
+    <div class="mb-8">
+      <h1 class="text-2xl font-bold text-gray-900 mb-2">👥 参考SNSアカウント</h1>
+      <p class="text-gray-600 text-sm">
+        Blender学習の参考になるSNSアカウントを用途別に紹介しています。<br class="hidden sm:block" />
+        ランキングではなく「用途別」の紹介です。
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {accounts.map((ac) => (
+        <article class="bg-white rounded-xl border border-[var(--color-border)] hover:shadow-md transition-shadow p-4 flex flex-col gap-3">
+          <div class="flex items-center gap-3">
+            <span class="text-2xl">{platformIcons[ac.data.platform] ?? '🔗'}</span>
+            <div>
+              <p class="font-semibold text-sm text-gray-900">{ac.data.name}</p>
+              <p class="text-xs text-gray-500">{platformLabels[ac.data.platform]} · {ac.data.creator}</p>
+            </div>
+          </div>
+          <p class="text-xs text-gray-600 leading-relaxed">{ac.data.summary}</p>
+          <div class="flex flex-wrap gap-1">
+            {ac.data.categories.slice(0, 3).map((cat: string) => (
+              <span class="tag">{categoryLabels[cat] ?? cat}</span>
+            ))}
+          </div>
+          <div class="flex items-center justify-between pt-2 border-t border-[var(--color-border)] mt-auto">
+            <div class="flex flex-wrap gap-1">
+              {ac.data.level.slice(0, 2).map((l: string) => (
+                <span class="badge-level">{levelLabels[l] ?? l}</span>
+              ))}
+            </div>
+            <a
+              href={ac.data.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-xs font-medium text-[var(--color-blender-blue)] hover:text-[var(--color-blender-blue-light)]"
+            >
+              見てみる →
+            </a>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <div class="mt-10 p-4 bg-blue-50 rounded-lg text-sm text-blue-800">
+      <strong>掲載ポリシー：</strong>
+      公開アカウントへのリンク掲載のみ行っています。ランキング形式ではなく、用途別の紹介です。
+      掲載内容の削除・修正希望は<a href="/contact" class="underline">お問い合わせ</a>からご連絡ください。
+    </div>
+  </div>
+</BaseLayout>

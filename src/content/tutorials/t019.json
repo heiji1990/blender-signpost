@@ -1,0 +1,32 @@
+{
+    "type":  "tutorial",
+    "title":  "Compositing入門 - レンダー後の色補正とグレーディング",
+    "url":  "https://www.youtube.com/watch?v=gyOhVCfsRFE",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "ColorGrader",
+    "language":  "ja",
+    "level":  [
+                  "intermediate",
+                  "advanced"
+              ],
+    "categories":  [
+                       "photorealistic",
+                       "sns_portfolio",
+                       "compositing"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "45分",
+    "recommendedOrder":  3,
+    "summary":  "Blenderの内蔵コンポジットノードを使ったポストプロセス処理を解説。カラーグレーディング・グロー・被写界深度などの効果を追加する方法。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "4.3",
+    "publishedAt":  "1年前"
+}

@@ -1,0 +1,22 @@
+{
+    "type": "addon",
+    "title": "Auto-Rig Pro - キャラクターリグ自動生成",
+    "url": "https://superhivemarket.com/products/auto-rig-pro",
+    "platform": "blender_market",
+    "priceType": "paid",
+    "price": 40,
+    "creator": "Artell",
+    "language": "en",
+    "level": ["intermediate", "advanced"],
+    "categories": ["character_animation", "rigging"],
+    "goals": [],
+    "summary": "ヒューマノイドキャラクターのリグをワンクリックで自動生成。フェイシャルリグやIK/FKの切り替えなど高機能なコントローラーを自動作成。Blenderリグアドオンの定番。",
+    "comment": null,
+    "blenderVersion": "3.x〜4.x",
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-13",
+    "status": "active"
+}

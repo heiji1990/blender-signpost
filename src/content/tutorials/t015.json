@@ -1,0 +1,31 @@
+{
+    "type":  "tutorial",
+    "title":  "パーティクルシステム入門 - 髪・煙・炎の表現",
+    "url":  "https://www.youtube.com/watch?v=0cqQDIH0YvY",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "ParticleArtist",
+    "language":  "ja",
+    "level":  [
+                  "intermediate"
+              ],
+    "categories":  [
+                       "character_animation",
+                       "sns_portfolio",
+                       "modeling"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "1時間15分",
+    "recommendedOrder":  2,
+    "summary":  "Blenderのパーティクルシステムを使って髪の毛・煙・炎などを表現する方法。Hair Particlesと物理シミュレーションの基本を解説。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "3.6",
+    "publishedAt":  "2年前"
+}

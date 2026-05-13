@@ -1,0 +1,31 @@
+{
+    "type":  "tutorial",
+    "title":  "Geometry Nodes - 草や木をプロシージャルに生成する",
+    "url":  "https://www.youtube.com/watch?v=LN83TYP9okk",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "NatureNodes",
+    "language":  "ja",
+    "level":  [
+                  "intermediate"
+              ],
+    "categories":  [
+                       "geometry_nodes",
+                       "photorealistic",
+                       "modeling"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "55分",
+    "recommendedOrder":  2,
+    "summary":  "Geometry Nodesを使って草や木などの自然物をプロシージャルに生成する方法。インスタンス配置とランダム化のテクニックを解説。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "3.6",
+    "publishedAt":  "2年前"
+}

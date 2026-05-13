@@ -1,0 +1,22 @@
+{
+    "type": "addon",
+    "title": "Botaniq - 植物・草木の生成アドオン",
+    "url": "https://superhivemarket.com/products/botaniq-trees",
+    "platform": "blender_market",
+    "priceType": "paid",
+    "price": 99,
+    "creator": "polygoniq",
+    "language": "en",
+    "level": ["beginner", "intermediate"],
+    "categories": ["photorealistic", "geometry_nodes", "modeling"],
+    "goals": [],
+    "summary": "リアルな草・木・花をワンクリックで配置できるアドオン。100種類以上の植物モデルを収録。フォトリアル背景制作に必須。",
+    "comment": null,
+    "blenderVersion": "3.x〜4.x",
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-13",
+    "status": "active"
+}

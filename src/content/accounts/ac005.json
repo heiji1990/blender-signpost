@@ -1,0 +1,21 @@
+{
+    "type":  "account",
+    "name":  "wanoco4D",
+    "url":  "https://x.com/wanoco4D",
+    "platform":  "x",
+    "creator":  "Kosei Wano",
+    "language":  "ja",
+    "level":  [
+                  "intermediate",
+                  "advanced"
+              ],
+    "categories":  [
+                       "motion_design",
+                       "character_animation",
+                       "sns_portfolio"
+                   ],
+    "summary":  "メカ・SF・モーショングラフィックスをBlenderで制作する日本人アーティスト。Forbes JAPAN 30 UNDER 30 2024選出。Instagramフォロワー32万人超。作品クオリティが高くSNS表現の参考になる。",
+    "followers":  null,
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

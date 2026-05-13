@@ -1,0 +1,30 @@
+{
+    "type":  "addon",
+    "title":  "Node Wrangler - ノード操作効率化（標準搭載）",
+    "url":  "https://docs.blender.org/manual/en/latest/addons/node/node_wrangler.html",
+    "platform":  "official",
+    "priceType":  "free",
+    "price":  null,
+    "creator":  "Blender Foundation",
+    "language":  "en",
+    "level":  [
+                  "beginner",
+                  "intermediate"
+              ],
+    "categories":  [
+                       "beginner",
+                       "cell_look"
+                   ],
+    "goals":  [
+
+              ],
+    "summary":  "Blenderに標準搭載のノード編集補助アドオン。Ctrl+Shift+クリックでプレビュー確認など、ノード操作を大幅に効率化できる。",
+    "comment":  null,
+    "blenderVersion":  "全バージョン",
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "publishedAt":  null,
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

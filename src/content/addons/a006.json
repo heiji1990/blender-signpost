@@ -1,0 +1,22 @@
+{
+    "type": "addon",
+    "title": "True Terrain - フォトリアル地形生成アドオン",
+    "url": "https://superhivemarket.com/products/true-terrain",
+    "platform": "blender_market",
+    "priceType": "paid",
+    "price": 65,
+    "creator": "WPG Studio",
+    "language": "en",
+    "level": ["intermediate"],
+    "categories": ["photorealistic", "modeling"],
+    "goals": [],
+    "summary": "山・平原・海岸などフォトリアルな地形をプロシージャルに生成できるアドオン。実際の地形データのインポートにも対応。",
+    "comment": null,
+    "blenderVersion": "3.x〜4.x",
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-13",
+    "status": "active"
+}

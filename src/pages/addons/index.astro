@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import FilterableList from '../../components/filters/FilterableList';
+
+const addons = await getCollection('addons', ({ data }) => data.status === 'active');
+const items = addons.map((a) => ({
+  id: a.id,
+  title: a.data.title,
+  url: a.data.url,
+  type: a.data.type,
+  platform: a.data.platform,
+  priceType: a.data.priceType,
+  creator: a.data.creator,
+  level: a.data.level,
+  categories: a.data.categories,
+  summary: a.data.summary,
+  affiliateUrl: a.data.affiliateUrl,
+  isAffiliate: a.data.isAffiliate,
+  isPr: a.data.isPr,
+}));
+---
+
+<BaseLayout
+  title="アドオン一覧"
+  description="Blenderの便利なアドオンをカテゴリ・価格・レベルから探せます。無料アドオンから有料まで幅広く掲載。"
+>
+  <div class="max-w-6xl mx-auto px-4 py-10">
+    <div class="mb-8">
+      <h1 class="text-2xl font-bold text-gray-900 mb-2">🔧 アドオン一覧</h1>
+      <p class="text-gray-600 text-sm">Blenderの機能を拡張するアドオンをカテゴリ・価格から探せます。</p>
+    </div>
+    <FilterableList items={items} client:load />
+  </div>
+</BaseLayout>

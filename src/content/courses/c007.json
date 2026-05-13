@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "Blenderキャラクターリギング&アニメーション講座",
+    "url": "https://coloso.jp/products/creative_jaychoi-jp",
+    "platform": "coloso",
+    "priceType": "paid",
+    "price": 24800,
+    "creator": "3Dアーティスト チェ・ジェヨン",
+    "language": "ja",
+    "level": ["intermediate", "advanced"],
+    "categories": ["character_animation", "rigging"],
+    "goals": [],
+    "duration": "16時間",
+    "recommendedOrder": 1,
+    "summary": "Constraints・Drivers・Controllersなどを活用した本格キャラクターリギング講座。顔・髪・衣装まで細かい動きの演出を学べる。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-13",
+    "status": "active"
+}

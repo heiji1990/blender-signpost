@@ -1,0 +1,30 @@
+{
+    "type":  "tutorial",
+    "title":  "モーションデザイン入門 - タイポグラフィアニメーション",
+    "url":  "https://www.youtube.com/watch?v=c41OfTrhSFk",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "MotionCreator",
+    "language":  "ja",
+    "level":  [
+                  "intermediate"
+              ],
+    "categories":  [
+                       "motion_design",
+                       "logo_animation"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "45分",
+    "recommendedOrder":  1,
+    "summary":  "文字やシェイプを使ったモーションデザインの基本。After Effectsライクな動きをBlenderで再現する方法を解説。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "4.1",
+    "publishedAt":  "2年前"
+}

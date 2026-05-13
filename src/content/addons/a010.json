@@ -1,0 +1,22 @@
+{
+    "type": "addon",
+    "title": "CAD Sketcher - 寸法指定モデリング（無料）",
+    "url": "https://github.com/hlorus/CAD_Sketcher",
+    "platform": "official",
+    "priceType": "free",
+    "price": null,
+    "creator": "hlorus",
+    "language": "en",
+    "level": ["intermediate", "advanced"],
+    "categories": ["product_cg", "modeling"],
+    "goals": [],
+    "summary": "AutoCADのような寸法・角度を指定したモデリングができる無料のオープンソースアドオン。プロダクトデザインや建築モデリングに最適。",
+    "comment": null,
+    "blenderVersion": "3.x〜4.x",
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-13",
+    "status": "active"
+}

@@ -1,0 +1,32 @@
+{
+    "type":  "tutorial",
+    "title":  "SNS向けループアニメ - ローポリキャラで作る歩きモーション",
+    "url":  "https://www.youtube.com/watch?v=rWMOucp09EY",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "LoopCharacter",
+    "language":  "ja",
+    "level":  [
+                  "intermediate"
+              ],
+    "categories":  [
+                       "loop_animation",
+                       "character_animation",
+                       "sns_portfolio",
+                       "rigging"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "1時間",
+    "recommendedOrder":  2,
+    "summary":  "SNSで人気のローポリキャラクターが歩くループアニメーションの作り方。ウォークサイクルの基本とNLAでのループ設定を解説。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "4.3",
+    "publishedAt":  "1年前"
+}

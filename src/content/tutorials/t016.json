@@ -1,0 +1,31 @@
+{
+    "type":  "tutorial",
+    "title":  "ロゴアニメーション制作 - パス文字とリボンエフェクト",
+    "url":  "https://www.youtube.com/watch?v=L4s0_RnQNAw",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "LogoMotion",
+    "language":  "ja",
+    "level":  [
+                  "beginner",
+                  "intermediate"
+              ],
+    "categories":  [
+                       "logo_animation",
+                       "motion_design"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "50分",
+    "recommendedOrder":  1,
+    "summary":  "企業ロゴやブランドロゴをアニメーションにする方法。テキストオブジェクトとパスアニメーションを使ったロゴアニメの作り方を解説。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "4.2",
+    "publishedAt":  "1年前"
+}

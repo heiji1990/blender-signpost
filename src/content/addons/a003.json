@@ -1,0 +1,22 @@
+{
+    "type": "addon",
+    "title": "Stylized Shader Pack - アニメ・セルシェーダーパック",
+    "url": "https://moportfolio.gumroad.com/l/yhrqsg",
+    "platform": "gumroad",
+    "priceType": "paid",
+    "price": 15,
+    "creator": "MO Portfolio",
+    "language": "en",
+    "level": ["beginner", "intermediate"],
+    "categories": ["cell_look"],
+    "goals": [],
+    "summary": "すぐに使えるアニメ調・スタイライズドシェーダーのコレクション。設定済みのマテリアルをブレンドファイルから使用可能。",
+    "comment": null,
+    "blenderVersion": "3.x〜4.x",
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-13",
+    "status": "active"
+}

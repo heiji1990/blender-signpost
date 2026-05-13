@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { useTranslations } from '../../../i18n/ui';
+
+const t = useTranslations('en');
+const accounts = await getCollection('accounts', ({ data }) => data.status === 'active');
+
+const platformIcons: Record<string, string> = {
+  youtube: '▶️', x: '🐦', instagram: '📸', web: '🌐',
+};
+const platformLabels: Record<string, string> = {
+  youtube: 'YouTube', x: 'X (Twitter)', instagram: 'Instagram', web: 'Web',
+};
+const categoryLabels: Record<string, string> = {
+  beginner: t.category.beginner, geometry_nodes: t.category.geometry_nodes,
+  cell_look: t.category.cell_look, loop_animation: t.category.loop_animation,
+  character_animation: t.category.character_animation, motion_design: t.category.motion_design,
+  logo_animation: t.category.logo_animation, photorealistic: t.category.photorealistic,
+  product_cg: t.category.product_cg, addon_usage: t.category.addon_usage,
+  freelance: t.category.freelance, sns_portfolio: t.category.sns_portfolio,
+  modeling: t.category.modeling, lighting: t.category.lighting,
+  rigging: t.category.rigging, compositing: t.category.compositing,
+};
+const levelLabels: Record<string, string> = {
+  beginner_zero: t.level.beginner_zero, beginner: t.level.beginner,
+  intermediate: t.level.intermediate, advanced: t.level.advanced,
+  career: t.level.career, hobby: t.level.hobby,
+};
+---
+
+<BaseLayout
+  title="Creator Accounts"
+  description="Browse Blender creator accounts by purpose — YouTube, X, and Instagram."
+>
+  <div class="max-w-6xl mx-auto px-4 py-10">
+    <div class="mb-8">
+      <h1 class="text-2xl font-bold text-gray-900 mb-2">👥 Creator Accounts</h1>
+      <p class="text-gray-600 text-sm">
+        Blender creator accounts listed by purpose — not ranked.<br class="hidden sm:block" />
+        A curated selection for learning inspiration.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {accounts.map((ac) => (
+        <article class="bg-white rounded-xl border border-[var(--color-border)] hover:shadow-md transition-shadow p-4 flex flex-col gap-3">
+          <div class="flex items-center gap-3">
+            <span class="text-2xl">{platformIcons[ac.data.platform] ?? '🔗'}</span>
+            <div>
+              <p class="font-semibold text-sm text-gray-900">{ac.data.name}</p>
+              <p class="text-xs text-gray-500">{platformLabels[ac.data.platform]} · {ac.data.creator}</p>
+            </div>
+          </div>
+          <p class="text-xs text-gray-600 leading-relaxed">{ac.data.summary}</p>
+          <div class="flex flex-wrap gap-1">
+            {ac.data.categories.slice(0, 3).map((cat: string) => (
+              <span class="tag">{categoryLabels[cat] ?? cat}</span>
+            ))}
+          </div>
+          <div class="flex items-center justify-between pt-2 border-t border-[var(--color-border)] mt-auto">
+            <div class="flex flex-wrap gap-1">
+              {ac.data.level.slice(0, 2).map((l: string) => (
+                <span class="badge-level">{levelLabels[l] ?? l}</span>
+              ))}
+            </div>
+            <a
+              href={ac.data.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-xs font-medium text-[var(--color-blender-blue)] hover:text-[var(--color-blender-blue-light)]"
+            >
+              {t.card.view}
+            </a>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <div class="mt-10 p-4 bg-blue-50 rounded-lg text-sm text-blue-800">
+      <strong>Listing policy: </strong>
+      {t.accounts.policyNotice}
+      {t.accounts.contactText} <a href="/en/contact" class="underline">{t.accounts.contactLink}</a>{t.accounts.contactSuffix}
+    </div>
+  </div>
+</BaseLayout>

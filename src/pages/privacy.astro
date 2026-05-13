@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const lastUpdated = '2026-05-13';
+---
+
+<BaseLayout title="プライバシーポリシー" noIndex>
+  <div class="max-w-2xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-bold text-gray-900 mb-2">プライバシーポリシー</h1>
+    <p class="text-xs text-gray-500 mb-8">最終更新: {lastUpdated}</p>
+
+    <div class="prose prose-sm max-w-none text-gray-700 space-y-6">
+      <section>
+        <h2 class="text-lg font-bold mb-2">個人情報の収集</h2>
+        <p>当サイト（Blender道しるべ）では、お問い合わせフォームを通じて名前・メールアドレスを収集することがあります。収集した情報はお問い合わせへの対応のみに使用し、第三者に提供することはありません。</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">アクセス解析</h2>
+        <p>当サイトでは、Google Analyticsを使用してアクセス情報を収集・分析することがあります。収集されるデータはIPアドレスを含む匿名の統計情報であり、個人を特定するものではありません。</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">Cookie</h2>
+        <p>当サイトは、アクセス解析・広告配信のためにCookieを使用することがあります。ブラウザの設定によりCookieを無効にすることができます。</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">広告について</h2>
+        <p>当サイトは、Google AdSenseやアフィリエイトプログラムを利用した広告を掲載することがあります。詳しくは<a href="/advertising" class="text-[var(--color-blender-blue)] underline">広告・PR表記ページ</a>をご覧ください。</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">免責事項</h2>
+        <p>当サイトに掲載している情報は、できる限り正確を期していますが、内容の正確性・最新性を保証するものではありません。掲載内容によって生じた損害について、当サイトは一切の責任を負いません。</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">お問い合わせ</h2>
+        <p>本ポリシーに関するお問い合わせは<a href="/contact" class="text-[var(--color-blender-blue)] underline">お問い合わせフォーム</a>からご連絡ください。</p>
+      </section>
+    </div>
+  </div>
+</BaseLayout>

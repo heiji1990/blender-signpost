@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const lastUpdated = '2026-05-13';
+---
+
+<BaseLayout title="Advertising & PR" noIndex>
+  <div class="max-w-2xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-bold text-gray-900 mb-2">Advertising & PR</h1>
+    <p class="text-xs text-gray-500 mb-8">Last updated: {lastUpdated}</p>
+
+    <div class="prose prose-sm max-w-none text-gray-700 space-y-6">
+      <section>
+        <h2 class="text-lg font-bold mb-2">Affiliate Links</h2>
+        <p>This site participates in affiliate programs. If you make a purchase through an affiliate link, we may receive a commission at no extra cost to you.</p>
+        <ul class="list-disc list-inside space-y-1 mt-2">
+          <li>Udemy Affiliate Program</li>
+          <li>Coloso Affiliate Program</li>
+          <li>Amazon Associates</li>
+          <li>Other affiliate programs</li>
+        </ul>
+        <p class="mt-2">Content containing affiliate links is labeled with an "Affiliate" badge.</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">PR Listings</h2>
+        <p>Paid listings requested by companies or creators are labeled with a "PR" badge. We clearly disclose PR listings and strive to maintain content accuracy.</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">Content Selection Policy</h2>
+        <p>We select content based on the following principles:</p>
+        <ul class="list-disc list-inside space-y-1 mt-2">
+          <li>Prioritize content that is genuinely useful for learners</li>
+          <li>Rankings are not influenced by advertising fees or affiliate commissions</li>
+          <li>Reviews include both pros and caveats</li>
+          <li>Paid courses: only publicly available information is listed; no paid content is reproduced</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">Google AdSense</h2>
+        <p>This site may display ads through Google AdSense. Google uses cookies to serve ads based on your interests.</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">Contact</h2>
+        <p>For advertising or PR inquiries, please use the <a href="/en/contact" class="text-[var(--color-blender-blue)] underline">contact form</a> (select "PR / Sponsorship").</p>
+      </section>
+    </div>
+  </div>
+</BaseLayout>

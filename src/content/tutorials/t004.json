@@ -1,0 +1,29 @@
+{
+    "type":  "tutorial",
+    "title":  "セルルック・アニメ調レンダリング完全ガイド",
+    "url":  "https://www.youtube.com/watch?v=e1tFq5OoSY0",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "AnimeBlender",
+    "language":  "ja",
+    "level":  [
+                  "intermediate"
+              ],
+    "categories":  [
+                       "cell_look"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "50分",
+    "recommendedOrder":  1,
+    "summary":  "FreestyleとShader to RGBを使ったアニメ調レンダリングの設定方法を徹底解説。輪郭線・影・グラデーションの調整まで。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "4.0",
+    "publishedAt":  "2年前"
+}

@@ -1,0 +1,29 @@
+{
+    "type":  "tutorial",
+    "title":  "Geometry Nodes入門 - プロシージャルモデリングの基礎",
+    "url":  "https://www.youtube.com/watch?v=yQgfsVy62Sw",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "GeoNodesJP",
+    "language":  "ja",
+    "level":  [
+                  "intermediate"
+              ],
+    "categories":  [
+                       "geometry_nodes"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "1時間20分",
+    "recommendedOrder":  1,
+    "summary":  "Geometry Nodesのノード構造から実際のプロシージャルモデリングまでをゼロから解説。パーティクル散布や変形など実用的な例を多数紹介。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "publishedAt":  "2022-02-05",
+    "blenderVersion":  "3.0"
+}

@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { useTranslations } from '../../../i18n/ui';
+
+const t = useTranslations('en');
+const routes = await getCollection('routes');
+---
+
+<BaseLayout
+  title="Learning Routes"
+  description="Choose a Blender learning path by your goal — beginner, Geometry Nodes, cel look, motion design, and more."
+>
+  <div class="max-w-4xl mx-auto px-4 py-10">
+    <div class="mb-8">
+      <h1 class="text-2xl font-bold text-gray-900 mb-2">🗺️ Learning Routes</h1>
+      <p class="text-gray-600 text-sm">
+        Choose a learning path based on what you want to create.<br class="hidden sm:block" />
+        Follow the steps to build skills without detours.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      {routes.map((route) => (
+        <a
+          href={`/en/routes/${route.id}`}
+          class="group flex flex-col gap-3 p-5 bg-white rounded-xl border border-[var(--color-border)] hover:shadow-md hover:border-[var(--color-blender-blue)] transition-all"
+        >
+          <div>
+            <h2 class="font-bold text-gray-900 group-hover:text-[var(--color-blender-blue)] mb-1">
+              {route.data.title}
+            </h2>
+            <p class="text-sm text-gray-600 line-clamp-2">{route.data.description}</p>
+          </div>
+          <div class="flex flex-wrap gap-2 text-xs">
+            <span class="bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">{t.routes.targetLabel} {route.data.targetLevel}</span>
+            {route.data.estimatedTime && (
+              <span class="bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full">{t.routes.estimatedTime} {route.data.estimatedTime}</span>
+            )}
+          </div>
+          <div class="mt-auto">
+            <p class="text-xs text-gray-500">{route.data.steps.length} steps</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

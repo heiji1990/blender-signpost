@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="お問い合わせ" description="Blender道しるべへのお問い合わせ・掲載依頼・修正依頼はこちらから。">
+  <div class="max-w-xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-bold text-gray-900 mb-3">お問い合わせ</h1>
+    <p class="text-gray-600 text-sm mb-8">
+      掲載内容の修正・削除依頼、掲載依頼、その他のお問い合わせはこちらから。
+      通常3営業日以内にご返信します。
+    </p>
+
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      class="space-y-5 bg-white p-6 rounded-2xl border border-[var(--color-border)]"
+    >
+      <input type="hidden" name="form-name" value="contact" />
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1" for="name">お名前</label>
+        <input
+          id="name" name="name" type="text" required
+          class="w-full px-3 py-2 text-sm border border-slate-200 rounded-lg focus:outline-none focus:border-blue-400"
+          placeholder="山田 太郎"
+        />
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1" for="email">メールアドレス</label>
+        <input
+          id="email" name="email" type="email" required
+          class="w-full px-3 py-2 text-sm border border-slate-200 rounded-lg focus:outline-none focus:border-blue-400"
+          placeholder="example@example.com"
+        />
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1" for="type">お問い合わせ種別</label>
+        <select
+          id="type" name="type"
+          class="w-full px-3 py-2 text-sm border border-slate-200 rounded-lg focus:outline-none focus:border-blue-400 bg-white"
+        >
+          <option value="general">一般的なお問い合わせ</option>
+          <option value="submit">掲載依頼</option>
+          <option value="correction">修正・削除依頼</option>
+          <option value="pr">PR・スポンサー</option>
+          <option value="other">その他</option>
+        </select>
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1" for="message">内容</label>
+        <textarea
+          id="message" name="message" required rows="5"
+          class="w-full px-3 py-2 text-sm border border-slate-200 rounded-lg focus:outline-none focus:border-blue-400 resize-none"
+          placeholder="お問い合わせ内容をご記入ください"
+        ></textarea>
+      </div>
+
+      <button
+        type="submit"
+        class="w-full px-6 py-3 bg-[var(--color-blender-blue)] text-white font-semibold rounded-lg hover:bg-[var(--color-blender-blue-light)] transition-colors"
+      >
+        送信する
+      </button>
+    </form>
+
+    <p class="text-xs text-gray-400 mt-4 text-center">
+      ※ 現在Netlifyフォームを使用しています。デプロイ後に有効になります。
+    </p>
+  </div>
+</BaseLayout>

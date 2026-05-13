@@ -1,0 +1,19 @@
+{
+    "type":  "account",
+    "name":  "aya17ch",
+    "url":  "https://www.instagram.com/aya17ch/",
+    "platform":  "instagram",
+    "creator":  "aya17ch",
+    "language":  "ja",
+    "level":  [
+                  "intermediate"
+              ],
+    "categories":  [
+                       "cell_look",
+                       "character_animation"
+                   ],
+    "summary":  "アニメ調キャラクターCGの制作過程や完成作品を投稿。セルルックのクオリティが高く参考になる。",
+    "followers":  null,
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

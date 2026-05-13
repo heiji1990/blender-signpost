@@ -1,0 +1,31 @@
+{
+    "type":  "tutorial",
+    "title":  "Eeveeで高速レンダリング - リアルタイムレンダーの設定",
+    "url":  "https://www.youtube.com/watch?v=3VEpZzykZHY",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "EeveeExpert",
+    "language":  "ja",
+    "level":  [
+                  "intermediate"
+              ],
+    "categories":  [
+                       "photorealistic",
+                       "product_cg",
+                       "lighting"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "35分",
+    "recommendedOrder":  2,
+    "summary":  "Eeveeレンダーエンジンの設定を最適化して、Cyclesに近い品質を高速で出す方法。SSS、反射、環境光遮蔽の設定を解説。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "4.1",
+    "publishedAt":  "2年前"
+}

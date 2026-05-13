@@ -1,0 +1,102 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import { platformIcons } from '../../../lib/labels';
+import { useTranslations } from '../../../i18n/ui';
+
+export async function getStaticPaths() {
+  const routes = await getCollection('routes');
+  return routes.map((r) => ({ params: { slug: r.id }, props: { entry: r } }));
+}
+
+const t = useTranslations('en');
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+
+const allTutorials = await getCollection('tutorials', ({ data }) => data.status === 'active');
+const allCourses   = await getCollection('courses',   ({ data }) => data.status === 'active');
+
+const tutorialMap = Object.fromEntries(allTutorials.map((t) => [t.id, t.data]));
+const courseMap   = Object.fromEntries(allCourses.map((c) => [c.id, c.data]));
+---
+
+<BaseLayout title={d.title} description={d.description}>
+  <div class="max-w-3xl mx-auto px-4 py-10">
+    <a href="/en/routes" class="text-sm text-gray-500 hover:text-gray-700 mb-6 inline-block">{t.detail.backRoutes}</a>
+
+    <div class="bg-white rounded-2xl border border-[var(--color-border)] p-6 sm:p-8">
+      <h1 class="text-2xl font-bold text-gray-900 mb-3">{d.title}</h1>
+      <p class="text-gray-600 text-sm leading-relaxed mb-6">{d.description}</p>
+
+      <div class="flex flex-wrap gap-2 mb-6">
+        <span class="bg-blue-50 text-blue-700 text-sm px-3 py-1 rounded-full">{t.routes.targetLabel} {d.targetLevel}</span>
+        {d.estimatedTime && (
+          <span class="bg-slate-100 text-slate-600 text-sm px-3 py-1 rounded-full">{t.routes.estimatedTime} {d.estimatedTime}</span>
+        )}
+      </div>
+
+      <!-- Steps -->
+      <div class="space-y-6 mb-8">
+        <h2 class="text-lg font-bold text-gray-800">{t.routes.steps}</h2>
+        {d.steps.map((step) => {
+          const stepTutorials = (step.tutorials ?? []).map((id) => ({ id, data: tutorialMap[id] })).filter((x) => x.data);
+          const stepCourses   = (step.courses   ?? []).map((id) => ({ id, data: courseMap[id]   })).filter((x) => x.data);
+          const hasResources  = stepTutorials.length > 0 || stepCourses.length > 0;
+          return (
+            <div class="flex gap-4">
+              <div class="flex-shrink-0 w-8 h-8 rounded-full bg-[var(--color-blender-blue)] text-white flex items-center justify-center text-sm font-bold">
+                {step.order}
+              </div>
+              <div class="flex-1 pb-5 border-b border-[var(--color-border)]">
+                <p class="font-semibold text-gray-900 mb-1">{step.title}</p>
+                <p class="text-sm text-gray-600 mb-2">{step.description}</p>
+                {step.estimatedTime && (
+                  <p class="text-xs text-gray-400 mb-3">{t.routes.estimatedTime} {step.estimatedTime}</p>
+                )}
+
+                {hasResources && (
+                  <div class="space-y-1.5">
+                    {stepTutorials.map(({ id, data: tut }) => (
+                      <a
+                        href={`/en/tutorials/${id}`}
+                        class="flex items-center gap-2 bg-green-50 hover:bg-green-100 border border-green-200 rounded-lg px-3 py-2 transition-colors group"
+                      >
+                        <span class="text-base">{platformIcons[tut.platform] ?? '🔗'}</span>
+                        <span class="flex-1 text-xs font-medium text-gray-800 group-hover:text-blue-700 line-clamp-1">{tut.title}</span>
+                        <span class="bg-green-100 text-green-700 text-xs px-1.5 py-0.5 rounded-full shrink-0">{t.routes.free}</span>
+                        <span class="text-xs text-gray-400 shrink-0">→</span>
+                      </a>
+                    ))}
+                    {stepCourses.map(({ id, data: c }) => (
+                      <a
+                        href={`/en/courses/${id}`}
+                        class="flex items-center gap-2 bg-blue-50 hover:bg-blue-100 border border-blue-200 rounded-lg px-3 py-2 transition-colors group"
+                      >
+                        <span class="text-base">{platformIcons[c.platform] ?? '🔗'}</span>
+                        <span class="flex-1 text-xs font-medium text-gray-800 group-hover:text-blue-700 line-clamp-1">{c.title}</span>
+                        <span class="bg-blue-100 text-blue-700 text-xs px-1.5 py-0.5 rounded-full shrink-0">{t.routes.paid}</span>
+                        <span class="text-xs text-gray-400 shrink-0">→</span>
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      <!-- Goal -->
+      <div class="bg-orange-50 border border-orange-200 rounded-lg p-4 mb-6">
+        <p class="text-sm font-semibold text-orange-800 mb-1">{t.routes.goal}</p>
+        <p class="text-sm text-orange-700">{d.targetGoal}</p>
+      </div>
+
+      <!-- Body from Markdown -->
+      <div class="prose prose-sm max-w-none text-gray-600">
+        <Content />
+      </div>
+    </div>
+  </div>
+</BaseLayout>

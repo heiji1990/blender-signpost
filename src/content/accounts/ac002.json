@@ -1,0 +1,19 @@
+{
+    "type":  "account",
+    "name":  "Susuki_CG_Lab",
+    "url":  "https://x.com/maxima_hikky",
+    "platform":  "x",
+    "creator":  "Susuki",
+    "language":  "ja",
+    "level":  [
+                  "intermediate",
+                  "advanced"
+              ],
+    "categories":  [
+                       "geometry_nodes"
+                   ],
+    "summary":  "元キャラクターモデラー（20年）からテクニカルアーティストへ転身。Geometry Nodesの法線・ノード構造などの技術情報を日本語で投稿。YouTubeチャンネル「Susuki_CG_Lab」も運営。",
+    "followers":  null,
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import FilterableList from '../../components/filters/FilterableList';
+
+const courses = await getCollection('courses', ({ data }) => data.status === 'active');
+const items = courses.map((c) => ({
+  id: c.id,
+  title: c.data.title,
+  url: c.data.url,
+  type: c.data.type,
+  platform: c.data.platform,
+  priceType: c.data.priceType,
+  creator: c.data.creator,
+  level: c.data.level,
+  categories: c.data.categories,
+  summary: c.data.summary,
+  affiliateUrl: c.data.affiliateUrl,
+  isAffiliate: c.data.isAffiliate,
+  isPr: c.data.isPr,
+  duration: c.data.duration,
+}));
+---
+
+<BaseLayout
+  title="有料講座一覧"
+  description="Blenderの有料講座をUdemy・Coloso・noteなどから探せます。レベル・カテゴリ・媒体で絞り込み検索可能。"
+>
+  <div class="max-w-6xl mx-auto px-4 py-10">
+    <div class="mb-8">
+      <h1 class="text-2xl font-bold text-gray-900 mb-2">🎓 有料講座一覧</h1>
+      <p class="text-gray-600 text-sm">Udemy・Coloso・noteなどの有料講座をレベル・カテゴリで探せます。<br class="hidden sm:block" />※ アフィリエイトリンクを含む場合があります。</p>
+    </div>
+    <FilterableList items={items} client:load />
+  </div>
+</BaseLayout>

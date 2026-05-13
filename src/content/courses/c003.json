@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "セルルック・アニメ調3DCG制作講座",
+    "url": "https://coloso.jp/products/3dcganimator-hirao-jp",
+    "platform": "coloso",
+    "priceType": "paid",
+    "price": 19800,
+    "creator": "3DCGアニメーター Hirao",
+    "language": "ja",
+    "level": ["intermediate"],
+    "categories": ["cell_look", "character_animation", "rigging"],
+    "goals": [],
+    "duration": "12時間",
+    "recommendedOrder": 1,
+    "summary": "Colosoの人気講座。アニメスタジオの手法を取り入れたセルルックキャラクターCGの制作フローを全工程で解説。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-13",
+    "status": "active"
+}

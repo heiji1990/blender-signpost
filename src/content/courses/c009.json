@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "Alive! Blenderアニメーション完全講座",
+    "url": "https://p2design.gumroad.com/l/Alive_Blender_animation_course",
+    "platform": "gumroad",
+    "priceType": "paid",
+    "price": 2980,
+    "creator": "p2design",
+    "language": "en",
+    "level": ["intermediate"],
+    "categories": ["loop_animation", "motion_design", "sns_portfolio"],
+    "goals": [],
+    "duration": "8時間相当",
+    "recommendedOrder": 1,
+    "summary": "Blenderアニメーションの基礎から上級キャラクターアクションまでをカバーする大容量講座。180本以上の動画でループテクニックを習得。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-13",
+    "status": "active"
+}

@@ -1,0 +1,31 @@
+{
+    "type":  "tutorial",
+    "title":  "フォトリアル室内背景の作り方 - ライティング完全版",
+    "url":  "https://www.youtube.com/watch?v=5AiXBV6pvGQ",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "ArchViz Pro",
+    "language":  "en",
+    "level":  [
+                  "intermediate",
+                  "advanced"
+              ],
+    "categories":  [
+                       "photorealistic",
+                       "lighting"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "2時間",
+    "recommendedOrder":  1,
+    "summary":  "建築ビジュアライゼーションに使えるフォトリアルな室内シーンの作り方。Cyclesレンダーの設定とHDRIライティングを詳しく解説。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "4.2",
+    "publishedAt":  "1年前"
+}

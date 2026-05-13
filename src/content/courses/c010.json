@@ -1,0 +1,28 @@
+{
+    "type":  "course",
+    "title":  "Blenderデジタルスカルプト～怪獣ソフビをつくろう～",
+    "url":  "https://www.udemy.com/course/blender-j01/",
+    "platform":  "udemy",
+    "priceType":  "paid",
+    "price":  1500,
+    "creator":  "Sculpt boy",
+    "language":  "ja",
+    "level":  [
+                  "beginner",
+                  "intermediate"
+              ],
+    "categories":  [
+                       "modeling"
+                   ],
+    "goals":  [],
+    "duration":  null,
+    "recommendedOrder":  1,
+    "summary":  "Blender 4.4を使ったデジタルスカルプト入門。怪獣・モンスターをテーマにしたユニークなアプローチで、スカルプトの基礎から完成まで楽しく学べる。サブカルチャー系CGクリエイター向け。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "publishedAt":  null,
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

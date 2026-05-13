@@ -1,0 +1,22 @@
+{
+    "type": "addon",
+    "title": "Fog Pack - アニメ風霧・雲エフェクト",
+    "url": "https://superhivemarket.com/products/fog-pack--fog-node-shader-",
+    "platform": "blender_market",
+    "priceType": "paid",
+    "price": 15,
+    "creator": "Defoq",
+    "language": "en",
+    "level": ["beginner", "intermediate"],
+    "categories": ["cell_look", "sns_portfolio"],
+    "goals": [],
+    "summary": "アニメやゲームのようなstylizedな霧・雲エフェクトを手軽に追加できるノードシェーダーアドオン。ノードグループで簡単カスタマイズ可能。",
+    "comment": null,
+    "blenderVersion": "3.x〜4.x",
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-13",
+    "status": "active"
+}

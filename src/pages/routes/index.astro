@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const routes = await getCollection('routes');
+---
+
+<BaseLayout
+  title="学習ルート一覧"
+  description="Blenderで作りたい表現・目的別の学習ルートを紹介。初心者向け・Geometry Nodes・セルルック・副業化など5コース掲載。"
+>
+  <div class="max-w-4xl mx-auto px-4 py-10">
+    <div class="mb-8">
+      <h1 class="text-2xl font-bold text-gray-900 mb-2">🗺️ 学習ルート一覧</h1>
+      <p class="text-gray-600 text-sm">
+        作りたい表現や目標から、次に何を学べばいいかが分かる学習ルートです。<br class="hidden sm:block" />
+        ルートに沿って進めば遠回りせずにスキルを積み上げられます。
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      {routes.map((route) => (
+        <a
+          href={`/routes/${route.id}`}
+          class="group flex flex-col gap-3 p-5 bg-white rounded-xl border border-[var(--color-border)] hover:shadow-md hover:border-[var(--color-blender-blue)] transition-all"
+        >
+          <div>
+            <h2 class="font-bold text-gray-900 group-hover:text-[var(--color-blender-blue)] mb-1">
+              {route.data.title}
+            </h2>
+            <p class="text-sm text-gray-600 line-clamp-2">{route.data.description}</p>
+          </div>
+          <div class="flex flex-wrap gap-2 text-xs">
+            <span class="bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">対象: {route.data.targetLevel}</span>
+            {route.data.estimatedTime && (
+              <span class="bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full">⏱ {route.data.estimatedTime}</span>
+            )}
+          </div>
+          <div class="mt-auto">
+            <p class="text-xs text-gray-500">{route.data.steps.length} ステップ</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

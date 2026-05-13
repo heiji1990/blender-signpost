@@ -1,0 +1,19 @@
+{
+    "type":  "account",
+    "name":  "blender.arch",
+    "url":  "https://www.instagram.com/blender.arch/",
+    "platform":  "instagram",
+    "creator":  "blender.arch",
+    "language":  "ja",
+    "level":  [
+                  "advanced"
+              ],
+    "categories":  [
+                       "photorealistic",
+                       "product_cg"
+                   ],
+    "summary":  "フォトリアルな室内CGや建築ビジュアライゼーションの作品を投稿。ライティングと質感の参考になる。",
+    "followers":  null,
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

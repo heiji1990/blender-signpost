@@ -1,0 +1,94 @@
+---
+import { useTranslations } from '../../i18n/ui';
+
+const lang = (Astro.currentLocale ?? 'ja') as 'ja' | 'en';
+const t = useTranslations(lang);
+const isEn = lang === 'en';
+
+const base = isEn ? '/en' : '';
+const navLinks = [
+  { href: `${base}/tutorials`, label: t.nav.tutorials },
+  { href: `${base}/courses`,   label: t.nav.courses   },
+  { href: `${base}/addons`,    label: t.nav.addons    },
+  { href: `${base}/accounts`,  label: t.nav.accounts  },
+  { href: `${base}/routes`,    label: t.nav.routes    },
+];
+
+const currentPath = Astro.url.pathname;
+const switchUrl = isEn
+  ? (currentPath.replace(/^\/en/, '') || '/')
+  : '/en' + currentPath;
+const siteName = t.siteName;
+---
+
+<header class="sticky top-0 z-50 bg-white border-b border-[var(--color-border)] shadow-sm">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="flex items-center justify-between h-14">
+      <!-- Logo -->
+      <a href={isEn ? '/en' : '/'} class="flex items-center gap-2 shrink-0">
+        <span class="text-lg font-bold text-[var(--color-blender-blue)]">🧭 {siteName}</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="hidden md:flex items-center gap-1">
+        {navLinks.map((link) => (
+          <a
+            href={link.href}
+            class:list={[
+              'px-3 py-1.5 rounded-md text-sm font-medium transition-colors',
+              currentPath.startsWith(link.href)
+                ? 'bg-[var(--color-blender-blue)] text-white'
+                : 'text-gray-600 hover:bg-gray-100',
+            ]}
+          >
+            {link.label}
+          </a>
+        ))}
+      </nav>
+
+      <!-- Language switcher -->
+      <a
+        href={switchUrl}
+        class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 text-sm font-medium text-gray-500 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors"
+        aria-label={isEn ? '日本語に切り替え' : 'Switch to English'}
+      >
+        {isEn ? '🇯🇵 日本語' : '🌐 English'}
+      </a>
+
+      <!-- Mobile menu button -->
+      <button
+        id="mobile-menu-btn"
+        class="md:hidden p-2 rounded-md text-gray-600 hover:bg-gray-100"
+        aria-label="メニューを開く"
+      >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile nav -->
+    <nav id="mobile-menu" class="md:hidden hidden pb-3">
+      {navLinks.map((link) => (
+        <a
+          href={link.href}
+          class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-100"
+        >
+          {link.label}
+        </a>
+      ))}
+      <a
+        href={switchUrl}
+        class="block px-3 py-2 text-sm font-medium text-gray-500"
+      >
+        {isEn ? '🇯🇵 日本語' : '🌐 English'}
+      </a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  btn?.addEventListener('click', () => menu?.classList.toggle('hidden'));
+</script>

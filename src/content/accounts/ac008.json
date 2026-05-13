@@ -1,0 +1,20 @@
+{
+    "type":  "account",
+    "name":  "3D人-3dnchu-",
+    "url":  "https://x.com/ymt3d",
+    "platform":  "x",
+    "creator":  "ymt3d",
+    "language":  "ja",
+    "level":  [
+                  "beginner",
+                  "intermediate",
+                  "advanced"
+              ],
+    "categories":  [
+                       "addon_usage"
+                   ],
+    "summary":  "フォロワー10万人超のCG情報発信アカウント。Blenderアドオン紹介・解説を日常的に投稿。ボーンデジタル社から「職種と用途で探せる Blenderアドオン事典」（250アドオン収録）を出版。",
+    "followers":  "103,400",
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

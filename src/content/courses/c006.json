@@ -1,0 +1,28 @@
+{
+    "type":  "course",
+    "title":  "Blenderフリーランスとして1年働いてみた結果",
+    "url":  "https://note.com/txx_cg/n/n321c48d9f42d",
+    "platform":  "note",
+    "priceType":  "paid",
+    "price":  700,
+    "creator":  "Tom Studio",
+    "language":  "ja",
+    "level":  [
+                  "intermediate",
+                  "career"
+              ],
+    "categories":  [
+                       "freelance"
+                   ],
+    "goals":  [],
+    "duration":  null,
+    "recommendedOrder":  1,
+    "summary":  "元CG会社7年勤務のキャラクターアーティストがBlenderを武器にフリーランスとして1年活動した実体験レポート。案件獲得・収入・苦労話を包み隠さず公開。冒頭1/3は無料で読める。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "publishedAt":  null,
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

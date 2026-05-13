@@ -1,0 +1,22 @@
+{
+    "type": "addon",
+    "title": "Hard Ops - ハードサーフェスモデリング支援",
+    "url": "https://superhivemarket.com/products/hard-ops--boxcutter-ultimate-bundle",
+    "platform": "blender_market",
+    "priceType": "paid",
+    "price": 40,
+    "creator": "masterxeon1001",
+    "language": "en",
+    "level": ["intermediate", "advanced"],
+    "categories": ["product_cg", "modeling"],
+    "goals": [],
+    "summary": "ロボット・武器・メカなどのハードサーフェスモデリングを効率化するアドオン。ブーリアン操作やベベルの高速化が可能。",
+    "comment": null,
+    "blenderVersion": "3.x〜4.x",
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-13",
+    "status": "active"
+}

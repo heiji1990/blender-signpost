@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "最新Blender 4.x LTS版！3DCGモデリング集中講座",
+    "url": "https://www.udemy.com/course/2-blender-3dcg/",
+    "platform": "udemy",
+    "priceType": "paid",
+    "price": 2400,
+    "creator": "うめちゃん",
+    "language": "ja",
+    "level": ["beginner_zero", "beginner", "intermediate"],
+    "categories": ["beginner", "modeling", "lighting", "rigging", "compositing"],
+    "goals": [],
+    "duration": "15時間",
+    "recommendedOrder": 1,
+    "summary": "受講生2.6万人超のベストセラーBlender入門講座。モデリング・マテリアル・アニメーション・レンダリングまで体系的にカバー。最新LTSバージョン対応。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-13",
+    "status": "active"
+}

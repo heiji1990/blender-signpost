@@ -1,0 +1,31 @@
+{
+    "type":  "tutorial",
+    "title":  "【完全初心者向け】Blender入門 - インターフェースから基本操作まで",
+    "url":  "https://www.youtube.com/watch?v=DC9j-4COXZA",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "BlenderJP",
+    "language":  "ja",
+    "level":  [
+                  "beginner_zero",
+                  "beginner"
+              ],
+    "categories":  [
+                       "beginner",
+                       "modeling"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "45分",
+    "recommendedOrder":  1,
+    "summary":  "Blenderを初めて触る方向けの入門動画。インターフェースの見方から基本的なオブジェクト操作まで丁寧に解説。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "publishedAt":  "2023-02-27",
+    "blenderVersion":  "3.4"
+}

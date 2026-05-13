@@ -1,0 +1,20 @@
+{
+    "type":  "account",
+    "name":  "Polygon Runway",
+    "url":  "https://www.youtube.com/@polygonrunway",
+    "platform":  "youtube",
+    "creator":  "Polygon Runway",
+    "language":  "en",
+    "level":  [
+                  "intermediate"
+              ],
+    "categories":  [
+                       "loop_animation",
+                       "motion_design",
+                       "sns_portfolio"
+                   ],
+    "summary":  "BlenderでSNS映えするループアニメーションやモーションデザインを制作するプロセス動画を投稿。英語解説だがビジュアル重視で参考にしやすい。",
+    "followers":  null,
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

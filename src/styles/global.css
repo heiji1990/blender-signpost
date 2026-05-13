@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blender-blue: #0F4C81;
+  --color-blender-blue-light: #1A6BB5;
+  --color-blender-orange: #F5A623;
+  --color-blender-orange-light: #F7B84B;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F8FAFC;
+  --color-border: #E2E8F0;
+  --color-text: #1A202C;
+  --color-text-muted: #718096;
+
+  --font-sans: 'Noto Sans JP', 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: var(--color-text);
+    background: var(--color-surface);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+@layer utilities {
+  .badge-free {
+    @apply bg-green-100 text-green-700 text-xs font-medium px-2 py-0.5 rounded-full;
+  }
+  .badge-paid {
+    @apply bg-blue-100 text-blue-700 text-xs font-medium px-2 py-0.5 rounded-full;
+  }
+  .badge-affiliate {
+    @apply bg-gray-100 text-gray-500 text-xs px-2 py-0.5 rounded-full;
+  }
+  .badge-pr {
+    @apply bg-yellow-100 text-yellow-700 text-xs font-medium px-2 py-0.5 rounded-full;
+  }
+  .badge-level {
+    @apply bg-slate-100 text-slate-600 text-xs px-2 py-0.5 rounded-full;
+  }
+  .tag {
+    @apply bg-slate-100 text-slate-700 text-xs px-2 py-0.5 rounded-md hover:bg-slate-200 transition-colors;
+  }
+}

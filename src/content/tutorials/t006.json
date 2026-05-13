@@ -1,0 +1,30 @@
+{
+    "type":  "tutorial",
+    "title":  "キャラクターリギング入門 - ボーンの追加から重み付けまで",
+    "url":  "https://www.youtube.com/watch?v=Q8zJRv3Qz_8",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "RigMaster",
+    "language":  "ja",
+    "level":  [
+                  "intermediate"
+              ],
+    "categories":  [
+                       "character_animation",
+                       "rigging"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "1時間",
+    "recommendedOrder":  1,
+    "summary":  "Blenderでキャラクターにボーンを追加し、アニメーションできるようにするリギングの基本を解説。Auto Weightsの活用法も紹介。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "4.0",
+    "publishedAt":  "2年前"
+}

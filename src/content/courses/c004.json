@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "Blenderで作る3Dモーショングラフィックス講座",
+    "url": "https://www.udemy.com/course/blender3d-motion/",
+    "platform": "udemy",
+    "priceType": "paid",
+    "price": 2400,
+    "creator": "Katsuhiko Mikami",
+    "language": "ja",
+    "level": ["intermediate"],
+    "categories": ["motion_design", "logo_animation"],
+    "goals": [],
+    "duration": "10時間",
+    "recommendedOrder": 1,
+    "summary": "モーショングラフィックスをBlenderで作るための総合講座。物理演算・パーティクル・タイポグラフィアニメなどを実例で学べる。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-13",
+    "status": "active"
+}

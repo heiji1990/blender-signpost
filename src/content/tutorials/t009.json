@@ -1,0 +1,31 @@
+{
+    "type":  "tutorial",
+    "title":  "プロダクトCG入門 - スマートフォンのモデリングとレンダリング",
+    "url":  "https://www.youtube.com/watch?v=d_NvRTPmt0g",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "ProductCG",
+    "language":  "ja",
+    "level":  [
+                  "intermediate"
+              ],
+    "categories":  [
+                       "product_cg",
+                       "modeling",
+                       "lighting"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "1時間30分",
+    "recommendedOrder":  1,
+    "summary":  "商品撮影に使えるプロダクトCGの作り方。スマートフォンをモデリングし、スタジオ撮影風のライティングで仕上げる方法を解説。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "4.0",
+    "publishedAt":  "2年前"
+}

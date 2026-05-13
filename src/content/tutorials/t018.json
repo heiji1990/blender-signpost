@@ -1,0 +1,30 @@
+{
+    "type":  "tutorial",
+    "title":  "スカルプトモード入門 - Dyntopo で有機的な形を作る",
+    "url":  "https://www.youtube.com/watch?v=JC7b3QLFyVA",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "SculptPro",
+    "language":  "ja",
+    "level":  [
+                  "intermediate"
+              ],
+    "categories":  [
+                       "character_animation",
+                       "modeling"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "1時間30分",
+    "recommendedOrder":  2,
+    "summary":  "スカルプトモードとDynamic Topologyを使った有機的な形状のモデリング。ブラシの使い方からキャラクターの顔を作るまでを解説。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "4.2",
+    "publishedAt":  "1年前"
+}

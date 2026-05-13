@@ -1,0 +1,29 @@
+{
+    "type":  "addon",
+    "title":  "Screencast Keys - キーボード表示アドオン",
+    "url":  "https://github.com/nutti/Screencast-Keys",
+    "platform":  "official",
+    "priceType":  "free",
+    "price":  null,
+    "creator":  "nutti (日本人開発者)",
+    "language":  "ja",
+    "level":  [
+                  "beginner_zero",
+                  "beginner"
+              ],
+    "categories":  [
+                       "beginner"
+                   ],
+    "goals":  [
+
+              ],
+    "summary":  "Blenderで操作したキーとマウスボタンを画面上に表示できる無料アドオン。チュートリアル動画の制作に必須。",
+    "comment":  null,
+    "blenderVersion":  "2.8x〜4.x",
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "publishedAt":  null,
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

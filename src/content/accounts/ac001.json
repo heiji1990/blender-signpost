@@ -1,0 +1,19 @@
+{
+    "type":  "account",
+    "name":  "@blender_jp",
+    "url":  "https://twitter.com/blender_jp",
+    "platform":  "x",
+    "creator":  "Blender JP公式",
+    "language":  "ja",
+    "level":  [
+                  "beginner_zero",
+                  "beginner"
+              ],
+    "categories":  [
+                       "beginner"
+                   ],
+    "summary":  "Blender日本語コミュニティの公式アカウント。日本語の情報・イベント・アップデート情報を発信。",
+    "followers":  null,
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

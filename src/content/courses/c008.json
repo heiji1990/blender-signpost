@@ -1,0 +1,30 @@
+{
+    "type":  "course",
+    "title":  "超基礎！超入門！Blender 3DCG第3弾 - 実践で活かす！3Dグラフィックデザイン",
+    "url":  "https://www.udemy.com/course/akaridesignblender/",
+    "platform":  "udemy",
+    "priceType":  "paid",
+    "price":  1500,
+    "creator":  "Kosuke Senda",
+    "language":  "ja",
+    "level":  [
+                  "beginner",
+                  "intermediate"
+              ],
+    "categories":  [
+                       "modeling",
+                       "lighting",
+                       "product_cg"
+                   ],
+    "goals":  [],
+    "duration":  null,
+    "recommendedOrder":  1,
+    "summary":  "Blender入門シリーズ第3弾。ライティング・カメラ技術を中心に、実際の仕事で使える3Dグラフィックデザインスキルを習得。永年無料アップデート付き。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "publishedAt":  null,
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

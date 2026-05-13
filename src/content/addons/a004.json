@@ -1,0 +1,29 @@
+{
+    "type":  "addon",
+    "title":  "Animation Nodes - プロシージャルアニメーション",
+    "url":  "https://github.com/JacquesLucke/animation_nodes",
+    "platform":  "official",
+    "priceType":  "free",
+    "price":  null,
+    "creator":  "Jacques Lucke",
+    "language":  "en",
+    "level":  [
+                  "advanced"
+              ],
+    "categories":  [
+                       "motion_design",
+                       "loop_animation"
+                   ],
+    "goals":  [
+
+              ],
+    "summary":  "ノードベースでプロシージャルなアニメーションを作成できる高機能アドオン。モーショングラフィックスの複雑な動きも実現可能。",
+    "comment":  null,
+    "blenderVersion":  "2.9x〜3.x",
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "publishedAt":  null,
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

@@ -1,0 +1,20 @@
+{
+    "type":  "account",
+    "name":  "Blender公式 YouTube",
+    "url":  "https://www.youtube.com/@BlenderOfficial",
+    "platform":  "youtube",
+    "creator":  "Blender Foundation",
+    "language":  "en",
+    "level":  [
+                  "beginner_zero",
+                  "beginner",
+                  "intermediate"
+              ],
+    "categories":  [
+                       "beginner"
+                   ],
+    "summary":  "Blender公式のYouTubeチャンネル。新機能の紹介・公式チュートリアル・コミュニティ作品を発信。英語メイン。",
+    "followers":  null,
+    "updatedAt":  "2026-05-13",
+    "status":  "active"
+}

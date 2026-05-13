@@ -1,0 +1,31 @@
+{
+    "type":  "tutorial",
+    "title":  "UV展開の基本 - テクスチャがきれいに貼れるようになる",
+    "url":  "https://www.youtube.com/watch?v=mFJNdIKApPc",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "UVMaster",
+    "language":  "ja",
+    "level":  [
+                  "beginner",
+                  "intermediate"
+              ],
+    "categories":  [
+                       "beginner",
+                       "modeling"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "40分",
+    "recommendedOrder":  4,
+    "summary":  "UV展開の概念から実際の操作まで丁寧に解説。スマートUV、手動展開の使い分けと、テクスチャの歪みをなくすコツを紹介。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "blenderVersion":  "3.5",
+    "publishedAt":  "3年前"
+}

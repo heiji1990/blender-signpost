@@ -1,0 +1,31 @@
+{
+    "type":  "tutorial",
+    "title":  "Blender初心者が最初に作るべきドーナツ完全版",
+    "url":  "https://www.youtube.com/watch?v=-tbSCMbJA6o",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "Andrew Price (Blender Guru)",
+    "language":  "en",
+    "level":  [
+                  "beginner_zero",
+                  "beginner"
+              ],
+    "categories":  [
+                       "beginner",
+                       "modeling"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "4時間",
+    "recommendedOrder":  2,
+    "summary":  "世界で最も有名なBlender入門チュートリアル。ドーナツを作りながらモデリング・マテリアル・レンダリングの基本を学べる。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "publishedAt":  "2025-11-24",
+    "blenderVersion":  "5.0"
+}

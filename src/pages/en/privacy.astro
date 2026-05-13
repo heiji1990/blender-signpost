@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const lastUpdated = '2026-05-13';
+---
+
+<BaseLayout title="Privacy Policy" noIndex>
+  <div class="max-w-2xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-bold text-gray-900 mb-2">Privacy Policy</h1>
+    <p class="text-xs text-gray-500 mb-8">Last updated: {lastUpdated}</p>
+
+    <div class="prose prose-sm max-w-none text-gray-700 space-y-6">
+      <section>
+        <h2 class="text-lg font-bold mb-2">Personal Information</h2>
+        <p>This site (Blender Signpost) may collect your name and email address through the contact form. Information collected is used solely to respond to your inquiry and will not be shared with third parties.</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">Analytics</h2>
+        <p>This site may use Google Analytics to collect and analyze access data. The data collected is anonymous statistical information including IP addresses and does not identify individuals.</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">Cookies</h2>
+        <p>This site may use cookies for analytics and advertising purposes. You can disable cookies through your browser settings.</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">Advertising</h2>
+        <p>This site may display ads through Google AdSense and affiliate programs. See the <a href="/en/advertising" class="text-[var(--color-blender-blue)] underline">Advertising & PR page</a> for details.</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">Disclaimer</h2>
+        <p>While we strive for accuracy, we cannot guarantee the completeness or currency of information on this site. We accept no liability for any damages arising from the use of content on this site.</p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold mb-2">Contact</h2>
+        <p>For inquiries about this policy, please use the <a href="/en/contact" class="text-[var(--color-blender-blue)] underline">contact form</a>.</p>
+      </section>
+    </div>
+  </div>
+</BaseLayout>

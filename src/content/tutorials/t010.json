@@ -1,0 +1,31 @@
+{
+    "type":  "tutorial",
+    "title":  "Blenderで始める副業 - ポートフォリオ制作から案件獲得まで",
+    "url":  "https://www.youtube.com/watch?v=XPCRrJT2XRQ",
+    "platform":  "youtube",
+    "priceType":  "free",
+    "creator":  "FreelanceBlender",
+    "language":  "ja",
+    "level":  [
+                  "intermediate",
+                  "career"
+              ],
+    "categories":  [
+                       "freelance",
+                       "sns_portfolio"
+                   ],
+    "goals":  [
+
+              ],
+    "duration":  "40分",
+    "recommendedOrder":  1,
+    "summary":  "Blenderのスキルを副業に活かす方法を解説。どんな案件があるか、ポートフォリオの作り方、クラウドソーシングでの案件獲得まで。",
+    "comment":  null,
+    "affiliateUrl":  null,
+    "isAffiliate":  false,
+    "isPr":  false,
+    "updatedAt":  "2026-05-13",
+    "status":  "active",
+    "publishedAt":  "2023-05-20",
+    "blenderVersion":  "3.5"
+}
