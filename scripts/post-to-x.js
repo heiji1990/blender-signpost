@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(__dirname, '..');
-const SITE_URL = 'https://blender-signpost.vercel.app';
+const SITE_URL = 'https://blender-michishirube.com';
 
 const auth = {
   appKey: process.env.X_API_KEY,
