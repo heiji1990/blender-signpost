@@ -89,7 +89,7 @@ function formatPost(item) {
 async function buildTestPost() {
   const stamp = new Date().toISOString();
   return [
-    '🧪 テスト投稿 — Blender道しるべ自動投稿システム疎通確認',
+    '🧪 テスト投稿 — Blenderの道しるべ自動投稿システム疎通確認',
     '',
     `稼働開始: ${stamp}`,
     SITE_URL,

@@ -1,4 +1,4 @@
-# Blender道しるべ - 週次リンクチェックスクリプト
+# Blenderの道しるべ - 週次リンクチェックスクリプト
 # 使い方: powershell -ExecutionPolicy Bypass -File scripts/check-links.ps1
 
 $contentDir = Join-Path $PSScriptRoot "..\src\content"

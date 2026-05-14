@@ -3,7 +3,7 @@ export type Lang = keyof typeof languages;
 
 export const ui = {
   ja: {
-    siteName: 'Blender道しるべ',
+    siteName: 'Blenderの道しるべ',
     siteDesc: 'Blenderで作りたい表現から学習コンテンツを探せるナビサイト',
     nav: {
       tutorials: 'チュートリアル',

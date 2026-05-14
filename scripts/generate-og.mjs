@@ -1,0 +1,115 @@
+#!/usr/bin/env node
+import sharp from 'sharp';
+import { writeFile } from 'node:fs/promises';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const REPO_ROOT = join(__dirname, '..');
+const OUTPUT_PNG = join(REPO_ROOT, 'public', 'og-default.png');
+const OUTPUT_SVG = join(REPO_ROOT, 'public', 'og-default.svg');
+
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="50%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0c1d3d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.18)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+    <style>
+      .jp { font-family: "Yu Gothic", "YuGothic", "Hiragino Sans", "Meiryo", sans-serif; }
+      .num { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Subtle grid pattern -->
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="120" y1="0" x2="120" y2="630"/>
+    <line x1="1080" y1="0" x2="1080" y2="630"/>
+  </g>
+
+  <!-- Compass icon (top-left) -->
+  <g transform="translate(120, 140)">
+    <!-- Outer ring -->
+    <circle cx="55" cy="55" r="50" fill="none" stroke="#ffffff" stroke-width="4"/>
+    <!-- Inner ring -->
+    <circle cx="55" cy="55" r="40" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+    <!-- Needle (N pointing up - orange) -->
+    <polygon points="55,15 64,55 55,55 46,55" fill="#f97316"/>
+    <!-- Needle (S pointing down - white) -->
+    <polygon points="55,95 64,55 55,55 46,55" fill="#ffffff"/>
+    <!-- Center dot -->
+    <circle cx="55" cy="55" r="4" fill="#ffffff"/>
+    <!-- N marker -->
+    <text x="55" y="9" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700" class="num">N</text>
+  </g>
+
+  <!-- Site name (eyebrow) -->
+  <text x="260" y="180" fill="rgba(255,255,255,0.7)" font-size="28" font-weight="500" class="jp" letter-spacing="4">
+    BLENDER MICHISHIRUBE
+  </text>
+
+  <!-- Main title -->
+  <text x="120" y="320" fill="#ffffff" font-size="92" font-weight="900" class="jp">
+    Blenderの道しるべ
+  </text>
+
+  <!-- Subtitle -->
+  <text x="120" y="385" fill="#bfdbfe" font-size="34" font-weight="500" class="jp">
+    作りたい表現から探す、Blender学習ナビ
+  </text>
+
+  <!-- Tag pills -->
+  <g transform="translate(120, 440)">
+    <!-- Tutorial -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="200" height="56" rx="28" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+      <text x="100" y="37" fill="#ffffff" font-size="22" font-weight="600" class="jp" text-anchor="middle">チュートリアル</text>
+    </g>
+    <!-- Course -->
+    <g transform="translate(216, 0)">
+      <rect x="0" y="0" width="160" height="56" rx="28" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+      <text x="80" y="37" fill="#ffffff" font-size="22" font-weight="600" class="jp" text-anchor="middle">有料講座</text>
+    </g>
+    <!-- Addon -->
+    <g transform="translate(392, 0)">
+      <rect x="0" y="0" width="160" height="56" rx="28" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+      <text x="80" y="37" fill="#ffffff" font-size="22" font-weight="600" class="jp" text-anchor="middle">アドオン</text>
+    </g>
+    <!-- Route -->
+    <g transform="translate(568, 0)">
+      <rect x="0" y="0" width="180" height="56" rx="28" fill="rgba(249,115,22,0.85)" stroke="rgba(249,115,22,1)" stroke-width="1"/>
+      <text x="90" y="37" fill="#ffffff" font-size="22" font-weight="700" class="jp" text-anchor="middle">学習ルート</text>
+    </g>
+  </g>
+
+  <!-- URL footer -->
+  <line x1="120" y1="555" x2="1080" y2="555" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="120" y="595" fill="#93c5fd" font-size="24" font-weight="500" class="num">
+    blender-michishirube.com
+  </text>
+
+  <!-- Accent bar (top) -->
+  <rect x="0" y="0" width="1200" height="6" fill="#f97316"/>
+</svg>`;
+
+await writeFile(OUTPUT_SVG, svg, 'utf-8');
+
+await sharp(Buffer.from(svg), { density: 144 })
+  .resize(1200, 630, { fit: 'fill' })
+  .png({ quality: 95, compressionLevel: 9 })
+  .toFile(OUTPUT_PNG);
+
+console.log('Generated:');
+console.log('  SVG:', OUTPUT_SVG);
+console.log('  PNG:', OUTPUT_PNG);
