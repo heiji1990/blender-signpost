@@ -3,6 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { platformIcons } from '../../../lib/labels';
 import { useTranslations } from '../../../i18n/ui';
+import { getYouTubeThumbnail } from '../../../lib/youtube';
 
 export async function getStaticPaths() {
   const tutorials = await getCollection('tutorials');
@@ -13,6 +14,7 @@ const t = useTranslations('en');
 const { entry } = Astro.props;
 const d = entry.data;
 const linkUrl = d.isAffiliate && d.affiliateUrl ? d.affiliateUrl : d.url;
+const ogImage = getYouTubeThumbnail(d.url) ?? undefined;
 
 const levelLabels: Record<string, string> = {
   beginner_zero: t.level.beginner_zero, beginner: t.level.beginner,
@@ -37,7 +39,7 @@ const platformLabels: Record<string, string> = {
 };
 ---
 
-<BaseLayout title={d.title} description={d.summary}>
+<BaseLayout title={d.title} description={d.summary} ogImage={ogImage}>
   <div class="max-w-3xl mx-auto px-4 py-10">
     <a href="/en/tutorials" class="text-sm text-gray-500 hover:text-gray-700 mb-6 inline-block">{t.detail.backTutorials}</a>
 
