@@ -79,6 +79,23 @@ export default function FilterBar({
   const [publishedYear, setPublishedYear] = useState('');
 
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams(window.location.search);
+    const cat = params.get('cat');
+    const lv = params.get('level');
+    const pt = params.get('price');
+    const q = params.get('q');
+    const ver = params.get('ver');
+    const year = params.get('year');
+    if (cat) setCategory(cat);
+    if (lv) setLevel(lv);
+    if (pt) setPriceType(pt);
+    if (q) setQuery(q);
+    if (ver) setBlenderVersion(ver);
+    if (year) setPublishedYear(year);
+  }, []);
+
+  useEffect(() => {
     onFilter({ level, priceType, category, query, blenderVersion, publishedYear });
   }, [level, priceType, category, query, blenderVersion, publishedYear]);
 
