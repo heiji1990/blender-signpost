@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "Abstract Animation Loop using Geometry Nodes & Eevee (Blender Tutorial)",
+  "url": "https://www.youtube.com/watch?v=0DVRWpbQOI8",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "geometry_nodes",
+    "loop_animation",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "15分",
+  "recommendedOrder": null,
+  "summary": "Abstract Animation Loop using Geometry Nodes & Eevee (Blender Tutorial) — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Create a Vibrant Retro Text Animation in Eevee (Blender Tutorial)",
+  "url": "https://www.youtube.com/watch?v=phbcgJioVHI",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "12分",
+  "recommendedOrder": null,
+  "summary": "Create a Vibrant Retro Text Animation in Eevee (Blender Tutorial) — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

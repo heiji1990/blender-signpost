@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Blender - Sci-Fi Particle Simulation in Eevee Blender 2.8",
+  "url": "https://www.youtube.com/watch?v=2bv973aqx-w",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "9分",
+  "recommendedOrder": null,
+  "summary": "Sci-Fi Particle Simulation in Eevee Blender 2.8 — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": "2.8"
+}

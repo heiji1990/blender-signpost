@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "Create A Complex & Dynamic Looping Animation in Blender 3.3",
+  "url": "https://www.youtube.com/watch?v=ufJN-gqkYcA",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate",
+    "advanced"
+  ],
+  "categories": [
+    "loop_animation",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "25分",
+  "recommendedOrder": null,
+  "summary": "Create A Complex & Dynamic Looping Animation in Blender 3.3 — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": "3.3"
+}

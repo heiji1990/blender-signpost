@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "Easy Stylized Character animation Loop in Eevee",
+  "url": "https://www.youtube.com/watch?v=te5fZtli8HM",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "loop_animation",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "7分",
+  "recommendedOrder": null,
+  "summary": "Easy Stylized Character animation Loop in Eevee — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Why Blender 4.0 Is Amazing For Motion Graphics!",
+  "url": "https://www.youtube.com/watch?v=DBhezcJRpGE",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "8分",
+  "recommendedOrder": null,
+  "summary": "Why Blender 4.0 Is Amazing For Motion Graphics — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": "4.0"
+}

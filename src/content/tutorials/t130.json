@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "How to Learn Motion Graphics in Blender 2025!",
+  "url": "https://www.youtube.com/watch?v=7yCBpdNeOnk",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "9分",
+  "recommendedOrder": null,
+  "summary": "How to Learn Motion Graphics in Blender 2025 — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

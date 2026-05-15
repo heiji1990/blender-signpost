@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "Sci-Fi Grid Loop in Geometry Nodes (Blender Tutorial)",
+  "url": "https://www.youtube.com/watch?v=P_kIRDcppts",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "geometry_nodes",
+    "loop_animation",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "19分",
+  "recommendedOrder": null,
+  "summary": "Sci-Fi Grid Loop in Geometry Nodes (Blender Tutorial) — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

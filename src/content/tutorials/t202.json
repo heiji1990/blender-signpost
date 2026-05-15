@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Create a Circular Text Animation in Blender (Motion Graphics)",
+  "url": "https://www.youtube.com/watch?v=igKR_LKnZkk",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "17分",
+  "recommendedOrder": null,
+  "summary": "Create a Circular Text Animation in Blender (Motion Graphics) — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

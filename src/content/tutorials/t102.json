@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "You Don’t Need Geometry Nodes for motion graphics in Blender?",
+  "url": "https://www.youtube.com/watch?v=2RqxPcPaS3Y",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "geometry_nodes",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "25分",
+  "recommendedOrder": null,
+  "summary": "You Don’t Need Geometry Nodes for motion graphics in Blender — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

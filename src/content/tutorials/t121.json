@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "Particle Flow Logo Animation in Blender (Geometry Nodes Tutorial)",
+  "url": "https://www.youtube.com/watch?v=oC6guqEK9J4",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "geometry_nodes",
+    "logo_animation",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "16分",
+  "recommendedOrder": null,
+  "summary": "Particle Flow Logo Animation in Blender (Geometry Nodes Tutorial) — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

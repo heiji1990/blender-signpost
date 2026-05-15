@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Modern Kinetic Animated Loop in Blender (Blender Tutorial)",
+  "url": "https://www.youtube.com/watch?v=aQfnxobF_1Y",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "loop_animation",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "15分",
+  "recommendedOrder": null,
+  "summary": "Modern Kinetic Animated Loop in Blender (Blender Tutorial) — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

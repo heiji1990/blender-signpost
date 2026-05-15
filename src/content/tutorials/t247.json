@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Easy Cinematic Text Animation in Blender (Blender tutorial)",
+  "url": "https://www.youtube.com/watch?v=dzq4byOD4Ug",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "20分",
+  "recommendedOrder": null,
+  "summary": "Easy Cinematic Text Animation in Blender (Blender tutorial) — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

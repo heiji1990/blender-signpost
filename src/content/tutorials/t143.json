@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "Making Crazy Structures with Geometry Nodes in Blender (the easy way)",
+  "url": "https://www.youtube.com/watch?v=g4jLHAMXzCk",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "geometry_nodes",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "18分",
+  "recommendedOrder": null,
+  "summary": "Making Crazy Structures with Geometry Nodes in Blender (the easy way) — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

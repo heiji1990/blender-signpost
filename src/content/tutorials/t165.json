@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "Photoreal Abstract Sci-Fi Animation Made in Geometry Nodes",
+  "url": "https://www.youtube.com/watch?v=q79unvd8IRs",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "geometry_nodes",
+    "photorealistic",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "14分",
+  "recommendedOrder": null,
+  "summary": "Photoreal Abstract Sci-Fi Animation Made in Geometry Nodes — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

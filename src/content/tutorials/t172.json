@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "How Do They DO It? 7 Tips For Daily Motion Graphics in Blender!",
+  "url": "https://www.youtube.com/watch?v=1aYh0cKi960",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "9分",
+  "recommendedOrder": null,
+  "summary": "How Do They DO It? 7 Tips For Daily Motion Graphics in Blender — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

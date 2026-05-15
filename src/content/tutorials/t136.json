@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Building A Sci-Fi Computer Animation in Blender (Tutorial)",
+  "url": "https://www.youtube.com/watch?v=wzRTGJXwYBg",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "26分",
+  "recommendedOrder": null,
+  "summary": "Building A Sci-Fi Computer Animation in Blender — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

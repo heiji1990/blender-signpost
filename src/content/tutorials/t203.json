@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "The New Way to Make Abstract models in Geometry Nodes (Blender Tutorial)",
+  "url": "https://www.youtube.com/watch?v=9Y-GyKBv_GU",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "geometry_nodes",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "7分",
+  "recommendedOrder": null,
+  "summary": "The New Way to Make Abstract models in Geometry Nodes (Blender Tutorial) — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

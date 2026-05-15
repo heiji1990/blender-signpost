@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "Easy Abstract Text Animation in Geometry Nodes (Blender tutorial)",
+  "url": "https://www.youtube.com/watch?v=X3WZIkuY59I",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "geometry_nodes",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "19分",
+  "recommendedOrder": null,
+  "summary": "Easy Abstract Text Animation in Geometry Nodes (Blender tutorial) — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

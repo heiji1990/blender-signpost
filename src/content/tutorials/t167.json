@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Tutorial : Retrowave Futuristic Text Effect in Blender & Eevee",
+  "url": "https://www.youtube.com/watch?v=G-RqfqTeKmc",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "17分",
+  "recommendedOrder": null,
+  "summary": "Tutorial : Retrowave Futuristic Text Effect in Blender & Eevee — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

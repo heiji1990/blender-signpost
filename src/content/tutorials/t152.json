@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "3 Motion Graphics Tricks in Blender 4.0 You Need To Try",
+  "url": "https://www.youtube.com/watch?v=cFZ4oq5Uhis",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "5分",
+  "recommendedOrder": null,
+  "summary": "3 Motion Graphics Tricks in Blender 4.0 You Need To Try — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": "4.0"
+}

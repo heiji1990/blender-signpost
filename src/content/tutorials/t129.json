@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "Making A Realistic Planet Animation in Blender (Beginner Tutorial)",
+  "url": "https://www.youtube.com/watch?v=DmAJWvxkrnk",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "48分",
+  "recommendedOrder": null,
+  "summary": "Making A Realistic Planet Animation in Blender (Beginner Tutorial) — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Sci-fi Animation Using Geometry Nodes in Blender 3.0",
+  "url": "https://www.youtube.com/watch?v=6MIaj7V7pG4",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "geometry_nodes",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "16分",
+  "recommendedOrder": null,
+  "summary": "Sci-fi Animation Using Geometry Nodes in Blender 3.0 — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": "3.0"
+}

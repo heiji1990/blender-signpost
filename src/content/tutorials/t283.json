@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "3D Concert Visual Animation Reel /// Ducky 3D",
+  "url": "https://www.youtube.com/watch?v=7OyX6Vb2Pc8",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "2分",
+  "recommendedOrder": null,
+  "summary": "3D Concert Visual Animation Reel /// Ducky 3D — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

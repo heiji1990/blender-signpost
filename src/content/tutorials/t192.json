@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "The TRUTH About Using Laptops for 3D Animation!!",
+  "url": "https://www.youtube.com/watch?v=WRcpO6ei1K4",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "15分",
+  "recommendedOrder": null,
+  "summary": "The TRUTH About Using Laptops for 3D Animation — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Blender 2.8 - Satisfying Animation In Eevee",
+  "url": "https://www.youtube.com/watch?v=7jEYhyjVdck",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "7分",
+  "recommendedOrder": null,
+  "summary": "Blender 2.8 - Satisfying Animation In Eevee — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": "2.8"
+}

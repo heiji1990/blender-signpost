@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Satisfying Geometry Nodes Animation (Blender Tutorial)",
+  "url": "https://www.youtube.com/watch?v=NyUJ6XH8A94",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "geometry_nodes",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "13分",
+  "recommendedOrder": null,
+  "summary": "Satisfying Geometry Nodes Animation (Blender Tutorial) — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

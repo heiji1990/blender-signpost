@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Create a Trendy Abstract Design in Blender & A Free Model Pack!!!",
+  "url": "https://www.youtube.com/watch?v=ZF3uPkL1urk",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "22分",
+  "recommendedOrder": null,
+  "summary": "Create a Trendy Abstract Design in Blender & A Free Model Pack — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

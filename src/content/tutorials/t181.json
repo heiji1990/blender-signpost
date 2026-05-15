@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Make A Custom 3D Music Visualizer in Blender & Geometry Nodes (Blender Tutorial)",
+  "url": "https://www.youtube.com/watch?v=NqHFq5gStck",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "geometry_nodes",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "18分",
+  "recommendedOrder": null,
+  "summary": "Make A Custom 3D Music Visualizer in Blender & Geometry Nodes (Blender Tutorial) — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

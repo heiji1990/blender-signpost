@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Easy Cyberpunk Text Animation In Eevee (Blender Tutorial)",
+  "url": "https://www.youtube.com/watch?v=BuizutL2MJU",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "21分",
+  "recommendedOrder": null,
+  "summary": "Easy Cyberpunk Text Animation In Eevee (Blender Tutorial) — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

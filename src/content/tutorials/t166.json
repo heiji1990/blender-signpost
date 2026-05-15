@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Amazing Logo Simulation made in Blender",
+  "url": "https://www.youtube.com/watch?v=p7kbB0gTevs",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "logo_animation",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "18分",
+  "recommendedOrder": null,
+  "summary": "Amazing Logo Simulation made in Blender — a Blender motion design / geometry nodes tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}
