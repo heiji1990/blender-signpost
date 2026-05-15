@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "【爆速】わずか3分で草wwww【blenderチュートリアル】",
+  "url": "https://www.youtube.com/watch?v=6Po8GDRVb-Q",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner_zero",
+    "beginner"
+  ],
+  "categories": [
+    "beginner"
+  ],
+  "goals": [],
+  "duration": "3分",
+  "recommendedOrder": null,
+  "summary": "わずか3分で草wwww。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

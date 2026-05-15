@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "【blender2.9】チェーン（鎖）の作り方！配列とカーブで自由自在",
+  "url": "https://www.youtube.com/watch?v=1qOnVOYCZzI",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner_zero",
+    "beginner"
+  ],
+  "categories": [
+    "beginner",
+    "modeling"
+  ],
+  "goals": [],
+  "duration": "8分",
+  "recommendedOrder": null,
+  "summary": "チェーン（鎖）の作り方！配列とカーブで自由自在。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": "2.9"
+}

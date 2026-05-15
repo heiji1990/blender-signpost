@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "【入門】ローポリ植物を描くかんたん3ステップ【Blenderテクスチャペイント】",
+  "url": "https://www.youtube.com/watch?v=Mb_6_3eFMtk",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner_zero",
+    "beginner"
+  ],
+  "categories": [
+    "beginner"
+  ],
+  "goals": [],
+  "duration": "36分",
+  "recommendedOrder": null,
+  "summary": "ローポリ植物を描くかんたん3ステップ。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

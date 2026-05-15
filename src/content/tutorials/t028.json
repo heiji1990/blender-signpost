@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "【全て無料】blenderを劇的に便利に！おすすめアドオン20選",
+  "url": "https://www.youtube.com/watch?v=7XHfH0JR5Ks",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner_zero",
+    "beginner"
+  ],
+  "categories": [
+    "beginner",
+    "addon_usage"
+  ],
+  "goals": [],
+  "duration": "1時間10分",
+  "recommendedOrder": null,
+  "summary": "blenderを劇的に便利に！おすすめアドオン20選。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

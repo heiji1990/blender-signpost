@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "【初心者向け】世界一やさしいBlender入門！使い方＆導入〜画像作成までを徹底解説【最新版対応】",
+  "url": "https://www.youtube.com/watch?v=S6aAvxUx2ko",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner_zero",
+    "beginner"
+  ],
+  "categories": [
+    "beginner"
+  ],
+  "goals": [],
+  "duration": "1時間4分",
+  "recommendedOrder": null,
+  "summary": "世界一やさしいBlender入門！使い方＆導入〜画像作成までを徹底解説。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "【完全版】blender初心者はコレさえ見ればUV展開できます【お題：フグ】",
+  "url": "https://www.youtube.com/watch?v=mFJNdIKApPc",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "beginner"
+  ],
+  "goals": [],
+  "duration": "1時間7分",
+  "recommendedOrder": null,
+  "summary": "blender初心者はコレさえ見ればUV展開できます。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

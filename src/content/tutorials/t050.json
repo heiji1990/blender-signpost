@@ -1,0 +1,30 @@
+{
+  "type": "tutorial",
+  "title": "【超入門】初めてのエフェクトの作り方【blender3.0チュートリアル】",
+  "url": "https://www.youtube.com/watch?v=Hy9VjIl9s3M",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "beginner",
+    "modeling",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "35分",
+  "recommendedOrder": null,
+  "summary": "初めてのエフェクトの作り方。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": "3.0"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "tutorial",
+  "title": "最初に見てよかった！blenderアニメーション基本のキ【用語や作り方をゼロから解説】",
+  "url": "https://www.youtube.com/watch?v=WMEsCBe4V2k",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "beginner",
+    "modeling",
+    "character_animation"
+  ],
+  "goals": [],
+  "duration": "36分",
+  "recommendedOrder": null,
+  "summary": "最初に見てよかった！blenderアニメーション基本のキ。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

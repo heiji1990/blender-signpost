@@ -1,0 +1,31 @@
+{
+  "type": "tutorial",
+  "title": "【6分でわかる】360度回転し続けるアニメーションの作り方【blender】",
+  "url": "https://www.youtube.com/watch?v=KZRyNYjPoRE",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "beginner",
+    "modeling",
+    "character_animation",
+    "loop_animation"
+  ],
+  "goals": [],
+  "duration": "6分",
+  "recommendedOrder": null,
+  "summary": "360度回転し続けるアニメーションの作り方。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

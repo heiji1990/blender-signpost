@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "【最新版】BlenderTips100選【完全保存版】",
+  "url": "https://www.youtube.com/watch?v=1fBFHzPvfAI",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner"
+  ],
+  "categories": [
+    "beginner"
+  ],
+  "goals": [],
+  "duration": "1時間33分",
+  "recommendedOrder": null,
+  "summary": "BlenderTips100選。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

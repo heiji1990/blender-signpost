@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "【2026年】今Blenderを始めたら「絶対にしない」5つの間違い",
+  "url": "https://www.youtube.com/watch?v=6hKH9iBFAxk",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner"
+  ],
+  "categories": [
+    "beginner"
+  ],
+  "goals": [],
+  "duration": "12分",
+  "recommendedOrder": null,
+  "summary": "今Blenderを始めたら「絶対にしない」5つの間違い。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

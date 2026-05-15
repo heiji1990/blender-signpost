@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "【blender 2.9】カンタン！塔のモデリング ※ナイフ投影の仕様変更あり→コメント欄チェック",
+  "url": "https://www.youtube.com/watch?v=H58Iwi8I0dQ",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner_zero",
+    "beginner"
+  ],
+  "categories": [
+    "beginner",
+    "modeling"
+  ],
+  "goals": [],
+  "duration": "25分",
+  "recommendedOrder": null,
+  "summary": "カンタン！塔のモデリング。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": "2.9"
+}

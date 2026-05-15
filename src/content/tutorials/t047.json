@@ -1,0 +1,30 @@
+{
+  "type": "tutorial",
+  "title": "【エフェクト応用編】変幻自在の光の筋を作ろう！【blender3.0】",
+  "url": "https://www.youtube.com/watch?v=nyLw7eNy_-c",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "beginner",
+    "modeling",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "18分",
+  "recommendedOrder": null,
+  "summary": "変幻自在の光の筋を作ろう。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": "3.0"
+}

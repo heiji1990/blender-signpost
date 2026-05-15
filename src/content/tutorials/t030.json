@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "【衝撃の事実】blenderチュートリアルはこれをしないと全部無駄",
+  "url": "https://www.youtube.com/watch?v=z5MR1GLBNUw",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner"
+  ],
+  "categories": [
+    "beginner"
+  ],
+  "goals": [],
+  "duration": "12分",
+  "recommendedOrder": null,
+  "summary": "blenderチュートリアルはこれをしないと全部無駄。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

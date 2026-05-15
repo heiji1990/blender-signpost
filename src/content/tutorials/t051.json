@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "【Blenderあるある】誰もが一度は経験したことのある瞬間をやってみた！",
+  "url": "https://www.youtube.com/watch?v=Ze1dbAPSPwY",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner"
+  ],
+  "categories": [
+    "beginner"
+  ],
+  "goals": [],
+  "duration": "5分",
+  "recommendedOrder": null,
+  "summary": "誰もが一度は経験したことのある瞬間をやってみた。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

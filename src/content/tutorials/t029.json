@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "【初心者歓迎】blenderミニルームの作り方｜入門チュートリアル",
+  "url": "https://www.youtube.com/watch?v=zsWy5NxUDu4",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner_zero",
+    "beginner"
+  ],
+  "categories": [
+    "beginner",
+    "modeling"
+  ],
+  "goals": [],
+  "duration": "1時間7分",
+  "recommendedOrder": null,
+  "summary": "blenderミニルームの作り方。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

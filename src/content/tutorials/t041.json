@@ -1,0 +1,30 @@
+{
+  "type": "tutorial",
+  "title": "幻想的…！イラスト風ドリンクの作り方｜モデリング〜アニメーション【blender】",
+  "url": "https://www.youtube.com/watch?v=NxJV72m9INE",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "beginner",
+    "modeling",
+    "character_animation"
+  ],
+  "goals": [],
+  "duration": "20分",
+  "recommendedOrder": null,
+  "summary": "幻想的…！イラスト風ドリンクの作り方。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

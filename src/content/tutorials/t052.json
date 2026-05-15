@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "【初めてのノード】リアルな金属の質感をノードで再現しよう【blender2.9】",
+  "url": "https://www.youtube.com/watch?v=fuBaVCfehxE",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "beginner",
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "15分",
+  "recommendedOrder": null,
+  "summary": "リアルな金属の質感をノードで再現しよう。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": "2.9"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "【本音レビュー】Colosoのアニメ風VFX講座がヤバすぎた…【blender】",
+  "url": "https://www.youtube.com/watch?v=lRe1foKMwzQ",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "3D Bibi",
+  "language": "ja",
+  "level": [
+    "beginner"
+  ],
+  "categories": [
+    "beginner",
+    "character_animation",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "12分",
+  "recommendedOrder": null,
+  "summary": "Colosoのアニメ風VFX講座がヤバすぎた…。Blender初心者向けに3DBibiが丁寧に実演解説。機械音痴でもゼロから3DCG制作を学べます。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}
