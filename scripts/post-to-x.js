@@ -98,12 +98,87 @@ async function buildTestPost() {
   ].join('\n');
 }
 
+function isoWeek(d = new Date()) {
+  const t = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+  const day = t.getUTCDay() || 7;
+  t.setUTCDate(t.getUTCDate() + 4 - day);
+  const yearStart = new Date(Date.UTC(t.getUTCFullYear(), 0, 1));
+  return Math.ceil(((t - yearStart) / 86400000 + 1) / 7);
+}
+
+const intersects = (a = [], b = []) => a.some((x) => b.includes(x));
+
+function matchContent(pain, { tutorials, courses, addons }) {
+  const m = pain.match || {};
+  let base;
+  if (m.type === 'tutorial') base = tutorials;
+  else if (m.type === 'course') base = courses;
+  else if (m.type === 'addon') base = addons;
+  else base = [...tutorials, ...courses];
+
+  let pool = base.filter((it) => intersects(it.categories, m.categories || []));
+  if (pool.length === 0) pool = base; // relax category
+
+  const kws = (pain.keywords || []).map((k) => k.toLowerCase());
+  const score = (it) => {
+    const title = (it.title || '').toLowerCase();
+    let s = 0;
+    s += (it.categories || []).filter((c) => (m.categories || []).includes(c)).length; // category overlap
+    if (m.level && intersects(it.level, m.level)) s += 2;                                // level fit
+    s += kws.filter((k) => title.includes(k)).length * 4;                               // keyword-in-title (strong)
+    if (it.language === 'ja') s += 1;                                                    // JP audience preference
+    return s;
+  };
+
+  let best = -1;
+  const scored = pool.map((it) => { const v = score(it); if (v > best) best = v; return { it, v }; });
+  const top = scored.filter((x) => x.v === best).map((x) => x.it);
+  return top.length ? top[Math.floor(Math.random() * top.length)] : null;
+}
+
+function buildPainpointPost(pain, item) {
+  const url = `${SITE_URL}${detailPath(item)}`;
+  const reasons = (pain.reasons || []).slice(0, 2).map((r) => `✓ ${r}`);
+  const lines = [
+    '🎯 今週のBlenderお悩み',
+    '',
+    `「${pain.pain}」`,
+    '',
+    `💡 ${pain.advice}`,
+    '',
+    `📌 これが効く →`,
+    `「${truncate(item.title, 42)}」（${item.creator}）`,
+    ...reasons,
+    '',
+    '🔗 詳しくはこちら',
+    url,
+    '',
+    '#Blender #Blender学習 #3DCG',
+  ];
+  return lines.join('\n');
+}
+
 async function main() {
   const mode = process.argv[2] || 'test';
 
   let text;
   if (mode === 'test') {
     text = await buildTestPost();
+  } else if (mode === 'painpoint') {
+    const { items } = JSON.parse(
+      await readFile(join(REPO_ROOT, 'scripts', 'painpoints.json'), 'utf-8')
+    );
+    const pain = items[isoWeek() % items.length];
+    const tutorials = await loadCollection('tutorials', 'tutorial');
+    const courses = await loadCollection('courses', 'course');
+    const addons = await loadCollection('addons', 'addon');
+    const item = matchContent(pain, { tutorials, courses, addons });
+    if (!item) {
+      console.error(`No content matched painpoint: ${pain.id}`);
+      process.exit(1);
+    }
+    console.log(`Painpoint [${pain.id}] -> [${item.type}/${item.id}]: ${item.title}`);
+    text = buildPainpointPost(pain, item);
   } else {
     const tutorials = await loadCollection('tutorials', 'tutorial');
     const courses = await loadCollection('courses', 'course');
@@ -116,7 +191,7 @@ async function main() {
     else if (mode === 'random') pool = [...tutorials, ...courses, ...addons];
     else {
       console.error(`Unknown mode: ${mode}`);
-      console.error('Valid modes: test | random | tutorial | course | addon');
+      console.error('Valid modes: test | painpoint | random | tutorial | course | addon');
       process.exit(1);
     }
 

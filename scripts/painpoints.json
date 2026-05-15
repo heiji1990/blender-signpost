@@ -1,0 +1,237 @@
+{
+  "_comment": "Blender学習者のお悩みバンク。週替りでローテし、match条件+keywordsでコンテンツDBからスコア選定。editしてOK。",
+  "items": [
+    {
+      "id": "next-after-donut",
+      "pain": "ドーナツチュートリアルは終わったけど、次に何を作ればいいか分からない…",
+      "advice": "いきなり自由制作より\"短いお題を1個完成\"が伸びる近道。",
+      "match": { "type": "tutorial", "categories": ["modeling", "beginner"], "level": ["beginner_zero", "beginner"] },
+      "keywords": ["初心者", "作ろう", "モデリング", "かんたん", "簡単"],
+      "reasons": ["手順が短く\"完成\"まで最短", "達成感が次の制作の燃料になる"]
+    },
+    {
+      "id": "interface-overwhelm",
+      "pain": "画面のボタンが多すぎて、どこを触ればいいのか毎回迷子になる…",
+      "advice": "全部覚えるのは不要。最初は移動・回転・拡縮の3つだけで十分。",
+      "match": { "type": "tutorial", "categories": ["beginner"], "level": ["beginner_zero"] },
+      "keywords": ["入門", "使い方", "初心者", "基本操作", "getting started", "interface"],
+      "reasons": ["最低限の操作だけに絞って解説", "1週間で手が勝手に動くようになる"]
+    },
+    {
+      "id": "shortcut-memorize",
+      "pain": "ショートカットが覚えられず、作業がいつまでも遅い…",
+      "advice": "暗記より\"よく使う10個だけ\"を実作業で繰り返すのが定着のコツ。",
+      "match": { "type": "tutorial", "categories": ["beginner"], "level": ["beginner_zero", "beginner"] },
+      "keywords": ["ショートカット", "時短", "効率", "tips", "tricks", "便利"],
+      "reasons": ["頻出操作を実演で反復できる", "手を動かしながら自然に覚えられる"]
+    },
+    {
+      "id": "modeling-messy-topology",
+      "pain": "モデリングすると形は出るのにメッシュがぐちゃぐちゃになる…",
+      "advice": "面の流れ(トポロジー)は\"四角面を意識\"するだけで激変する。",
+      "match": { "type": "tutorial", "categories": ["modeling"], "level": ["beginner", "intermediate"] },
+      "keywords": ["トポロジー", "リトポ", "retopo", "topology", "メッシュ", "モデリング"],
+      "reasons": ["きれいな面構成の作り方が分かる", "後のテクスチャ・変形が楽になる"]
+    },
+    {
+      "id": "uv-unwrap-hard",
+      "pain": "UV展開がいつも歪む・どこで切ればいいか分からない…",
+      "advice": "シームは\"目立たない場所＋形の境目\"に置くのが基本ルール。",
+      "match": { "type": "tutorial", "categories": ["modeling"], "level": ["beginner", "intermediate"] },
+      "keywords": ["UV", "展開", "unwrap", "シーム", "テクスチャ"],
+      "reasons": ["シームの入れ方を具体例で解説", "歪み確認の手順までカバー"]
+    },
+    {
+      "id": "geonodes-too-abstract",
+      "pain": "ジオメトリノードが抽象的すぎて何をしているのか掴めない…",
+      "advice": "理屈より\"小さい完成物を1個まねる\"と一気に腑に落ちる。",
+      "match": { "type": "tutorial", "categories": ["geometry_nodes"], "level": ["beginner", "intermediate"] },
+      "keywords": ["ジオメトリ", "geometry node", "geo node", "ノード", "procedural", "node"],
+      "reasons": ["手を動かす実例ベースで理解できる", "ノードの繋がりが視覚的に追える"]
+    },
+    {
+      "id": "cell-look-flat",
+      "pain": "セルルックにしたいのに、のっぺり安っぽくなってしまう…",
+      "advice": "影の段階＋輪郭線の2点を整えるだけでアニメ感が出る。",
+      "match": { "categories": ["cell_look"], "level": ["beginner", "intermediate"] },
+      "keywords": ["セルルック", "トゥーン", "toon", "cel", "アニメ", "stylized", "輪郭"],
+      "reasons": ["トゥーン影と輪郭線の作り方が分かる", "アニメ調の質感を再現しやすい"]
+    },
+    {
+      "id": "render-slow",
+      "pain": "レンダリングが遅すぎて1枚出すのに心が折れる…",
+      "advice": "サンプル数・デノイズ・解像度の3点見直しで体感が大きく変わる。",
+      "match": { "categories": ["lighting", "photorealistic"], "level": ["intermediate"] },
+      "keywords": ["レンダリング", "render", "高速", "faster", "cycles", "最適化", "performance"],
+      "reasons": ["高速化の具体設定を解説", "画質を保ったまま時間短縮できる"]
+    },
+    {
+      "id": "lighting-flat",
+      "pain": "ライティングが平坦で、作品がいつも素人っぽく見える…",
+      "advice": "3点ライトより\"主光源1つを強く\"する方が映える場合が多い。",
+      "match": { "categories": ["lighting"], "level": ["beginner", "intermediate"] },
+      "keywords": ["ライティング", "照明", "light", "lighting", "シネマティック", "cinematic"],
+      "reasons": ["印象が変わる光の置き方が学べる", "シネマティックな質感に寄せられる"]
+    },
+    {
+      "id": "texture-not-realistic",
+      "pain": "テクスチャを貼ってもリアルにならない・プラスチックっぽい…",
+      "advice": "ラフネスと法線の作り込みでリアル感はほぼ決まる。",
+      "match": { "categories": ["photorealistic", "modeling"], "level": ["intermediate"] },
+      "keywords": ["テクスチャ", "質感", "リアル", "realistic", "photoreal", "material", "PBR", "shader", "texture"],
+      "reasons": ["質感ノードの組み方を実演", "フォトリアルの肝が掴める"]
+    },
+    {
+      "id": "animation-where-start",
+      "pain": "アニメーションをやりたいけど、何から手を付ければいいか不明…",
+      "advice": "キャラ前に\"物体1個を動かす\"でキーフレームの仕組みを体得。",
+      "match": { "type": "tutorial", "categories": ["motion_design", "character_animation"], "level": ["beginner", "intermediate"] },
+      "keywords": ["アニメーション", "animation", "キーフレーム", "animate", "モーション", "基本"],
+      "reasons": ["最小構成でアニメ基礎が分かる", "用語の壁を最短で越えられる"]
+    },
+    {
+      "id": "rigging-scary",
+      "pain": "リギングが難しそうで、キャラを動かす前に挫折しそう…",
+      "advice": "全身いきなりはNG。腕1本のIK/FKから始めると怖くない。",
+      "match": { "categories": ["rigging", "character_animation"], "level": ["beginner", "intermediate"] },
+      "keywords": ["リギング", "リグ", "rig", "ボーン", "armature", "IK", "rigging"],
+      "reasons": ["やさしい順でリグを解説", "つまずきポイントを先回りで回避"]
+    },
+    {
+      "id": "loop-anim-sns",
+      "pain": "SNSでバズってるループアニメ、作り方が全く想像できない…",
+      "advice": "ループは\"始点と終点を同じ値\"にするだけで8割成立する。",
+      "match": { "categories": ["loop_animation", "motion_design"], "level": ["beginner", "intermediate"] },
+      "keywords": ["ループ", "loop", "アニメ", "sns", "motion", "seamless"],
+      "reasons": ["ループ設定の型が分かる", "そのままSNS投稿に使える題材"]
+    },
+    {
+      "id": "motion-graphics-pro",
+      "pain": "プロっぽいモーショングラフィックスに全然近づけない…",
+      "advice": "派手な動きより\"イージングと余白\"で一気にプロ見えする。",
+      "match": { "categories": ["motion_design"], "level": ["intermediate"] },
+      "keywords": ["モーション", "motion", "graphics", "after effects", "エフェクト", "effect", "animation"],
+      "reasons": ["洗練された動きの作り方を解説", "AfterEffects的表現をBlenderで再現"]
+    },
+    {
+      "id": "addon-which",
+      "pain": "アドオンが多すぎて、結局どれを入れればいいか分からない…",
+      "advice": "まずは無料の定番だけ。増やすのは作業で困ってからで十分。",
+      "match": { "type": "addon", "categories": ["addon_usage"], "level": ["beginner", "intermediate"] },
+      "keywords": ["アドオン", "addon", "add-on", "プラグイン", "おすすめ"],
+      "reasons": ["定番アドオンを厳選紹介", "導入効果がすぐ体感できる"]
+    },
+    {
+      "id": "motivation-drop",
+      "pain": "作りかけで飽きてしまい、完成まで辿り着けない…",
+      "advice": "完成率を上げるコツは\"1日で終わる小ささ\"に題材を割ること。",
+      "match": { "type": "tutorial", "categories": ["beginner", "modeling"], "level": ["beginner_zero", "beginner"] },
+      "keywords": ["3分", "簡単", "かんたん", "easy", "初心者", "作ろう", "最速"],
+      "reasons": ["短時間で完成できる題材", "成功体験が継続の原動力になる"]
+    },
+    {
+      "id": "version-confusion",
+      "pain": "チュートリアルと自分のBlenderのバージョンが違って詰む…",
+      "advice": "操作名が変わっても考え方は同じ。差分だけ調べれば追える。",
+      "match": { "type": "tutorial", "categories": ["beginner"], "level": ["beginner", "intermediate"] },
+      "keywords": ["最新", "4.", "5.", "blender 4", "blender 5", "最新版"],
+      "reasons": ["新しめのバージョン対応で安心", "現行UIに沿って手順を追える"]
+    },
+    {
+      "id": "freelance-start",
+      "pain": "Blenderで副業したいけど、何ができれば仕事になるのか不明…",
+      "advice": "\"案件で需要が多い表現\"を1つ尖らせるのが最短ルート。",
+      "match": { "type": "course", "categories": ["freelance", "product_cg"], "level": ["intermediate", "career"] },
+      "keywords": ["副業", "案件", "フリーランス", "freelance", "仕事", "収益", "稼ぐ"],
+      "reasons": ["案件化に直結するスキルを体系化", "ポートフォリオ設計まで踏み込む"]
+    },
+    {
+      "id": "portfolio-weak",
+      "pain": "ポートフォリオが弱くて、見せても反応がもらえない…",
+      "advice": "数より\"1点を完成度MAX\"。ライティングと構図で化ける。",
+      "match": { "categories": ["sns_portfolio", "lighting"], "level": ["intermediate"] },
+      "keywords": ["ポートフォリオ", "portfolio", "作品", "sns", "ライティング", "クオリティ"],
+      "reasons": ["見栄えを底上げする要点が分かる", "SNSで反応を取る作品作りに直結"]
+    },
+    {
+      "id": "character-modeling-hard",
+      "pain": "キャラクターモデリングが難しすぎて顔の時点で心が折れる…",
+      "advice": "いきなり美形は無理。デフォルメ・チビ体型から入ると続く。",
+      "match": { "type": "tutorial", "categories": ["modeling", "character_animation"], "level": ["beginner", "intermediate"] },
+      "keywords": ["キャラクター", "character", "sculpt", "スカルプト", "顔", "head", "チビ", "chibi", "modeling"],
+      "reasons": ["難度低めの題材から解説", "完成まで辿り着ける設計"]
+    },
+    {
+      "id": "compositing-unknown",
+      "pain": "コンポジットって何？やった方がいいのか分からない…",
+      "advice": "最後のひと味。グレア＋色補正だけでも作品の格が上がる。",
+      "match": { "categories": ["compositing"], "level": ["beginner", "intermediate"] },
+      "keywords": ["コンポジ", "composit", "合成", "グレア", "glow", "色補正", "post"],
+      "reasons": ["最低限の合成処理を解説", "仕上げの差が分かりやすい"]
+    },
+    {
+      "id": "scene-empty",
+      "pain": "オブジェクトは作れるのに、シーンにすると寂しい・絵にならない…",
+      "advice": "主役より\"背景と光\"。環境を足すだけで一気に作品化する。",
+      "match": { "categories": ["lighting", "photorealistic"], "level": ["beginner", "intermediate"] },
+      "keywords": ["シーン", "背景", "環境", "scene", "environment", "風景", "landscape"],
+      "reasons": ["シーン作りの考え方が学べる", "1枚絵として成立させられる"]
+    },
+    {
+      "id": "hair-difficult",
+      "pain": "髪の毛・ファーがうまく作れず、キャラが完成しない…",
+      "advice": "新ヘアカーブは\"少数で形→密度\"の順が破綻しにくい。",
+      "match": { "categories": ["modeling", "character_animation"], "level": ["intermediate"] },
+      "keywords": ["ヘア", "髪", "hair", "ファー", "fur", "grooming", "グルーミング"],
+      "reasons": ["ヘアシステムの手順を実演", "破綻しにくい作り方が分かる"]
+    },
+    {
+      "id": "physics-scary",
+      "pain": "物理演算(布・剛体)が思い通りに動かず諦めがち…",
+      "advice": "まずは剛体1個を落とすだけ。設定の意味を1つずつ確認。",
+      "match": { "type": "tutorial", "categories": ["motion_design"], "level": ["beginner", "intermediate"] },
+      "keywords": ["物理", "physics", "シミュレーション", "simulation", "剛体", "布", "cloth"],
+      "reasons": ["最小構成で物理の基礎が分かる", "設定項目の意味を理解できる"]
+    },
+    {
+      "id": "logo-3d",
+      "pain": "ロゴを3Dでかっこよく動かしたいが作り方が分からない…",
+      "advice": "押し出し＋ベベル＋反射で\"それっぽさ\"はほぼ完成する。",
+      "match": { "categories": ["logo_animation", "motion_design"], "level": ["beginner", "intermediate"] },
+      "keywords": ["ロゴ", "logo", "タイトル", "text", "テキスト", "タイポ", "typograph"],
+      "reasons": ["3Dロゴ表現の定石を解説", "短時間でSNS映えする成果物"]
+    },
+    {
+      "id": "product-cg",
+      "pain": "商品CG(プロダクト)をきれいに見せる方法が分からない…",
+      "advice": "スタジオライティングと床の映り込みで\"広告っぽさ\"が出る。",
+      "match": { "categories": ["product_cg", "lighting", "photorealistic"], "level": ["intermediate"] },
+      "keywords": ["プロダクト", "製品", "product", "商品", "スタジオ", "広告"],
+      "reasons": ["製品見栄えの作り込みを解説", "案件でも使える質感に届く"]
+    },
+    {
+      "id": "tutorial-too-fast",
+      "pain": "チュートリアルが早すぎて付いていけず、毎回止めまくり…",
+      "advice": "1.5倍で全体把握→2周目で手を動かす、の2パスが効率的。",
+      "match": { "type": "tutorial", "categories": ["beginner"], "level": ["beginner_zero", "beginner"] },
+      "keywords": ["完全初心者", "入門", "やさしい", "beginner", "ステップ", "丁寧"],
+      "reasons": ["丁寧めの解説で置いていかれにくい", "初心者前提で進む安心感"]
+    },
+    {
+      "id": "what-to-learn-order",
+      "pain": "モデリング→何→何…の学習順が分からず遠回りしてる気がする…",
+      "advice": "表現の完成形から逆算して必要スキルだけ拾うのが最短。",
+      "match": { "type": "course", "categories": ["beginner", "modeling"], "level": ["beginner", "intermediate"] },
+      "keywords": ["講座", "ガイド", "guide", "入門", "完全", "体系", "master", "ultimate"],
+      "reasons": ["体系立てて学べる構成", "遠回りせず必要分を習得"]
+    },
+    {
+      "id": "stylized-render",
+      "pain": "リアルじゃなく\"作品っぽいスタイライズド\"の作り方が知りたい…",
+      "advice": "現実の再現を捨て\"光と色をデザインする\"意識が分かれ道。",
+      "match": { "categories": ["cell_look", "motion_design"], "level": ["intermediate"] },
+      "keywords": ["スタイライズド", "stylized", "セルルック", "アート", "abstract", "様式"],
+      "reasons": ["様式化した表現の考え方が分かる", "個性ある画作りに踏み出せる"]
+    }
+  ]
+}
