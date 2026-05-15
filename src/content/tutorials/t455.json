@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "How To Make Lego In Blender",
+  "url": "https://www.youtube.com/watch?v=c_2yOoNHzG4",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "5分",
+  "recommendedOrder": null,
+  "summary": "How To Make Lego In Blender — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

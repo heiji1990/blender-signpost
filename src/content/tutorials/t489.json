@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "These tricks will make your renders cinematic in blender | tutorial",
+  "url": "https://www.youtube.com/watch?v=SZQfyArAVBc",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "compositing",
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "3分",
+  "recommendedOrder": null,
+  "summary": "These tricks will make your renders cinematic in blender | tutorial — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

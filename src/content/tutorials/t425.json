@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Blenderでフォトリアリスティックなテクスチャを作成する",
+  "url": "https://www.youtube.com/watch?v=Q8aO5XIEDNI",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "8分",
+  "recommendedOrder": null,
+  "summary": "Blenderでフォトリアリスティックなテクスチャを作成する。Blenderのライティング/コンポジット/フォトリアル系チュートリアル（Extra 3d）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

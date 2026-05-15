@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "How To Add Depth in Blender",
+  "url": "https://www.youtube.com/watch?v=65rOsADc0ng",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "3分",
+  "recommendedOrder": null,
+  "summary": "How To Add Depth in Blender — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

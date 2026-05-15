@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Free Cinematic Lighting Pack For Blender",
+  "url": "https://www.youtube.com/watch?v=6qxzqAZdTRQ",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "lighting",
+    "compositing"
+  ],
+  "goals": [],
+  "duration": "2分",
+  "recommendedOrder": null,
+  "summary": "Free Cinematic Lighting Pack For Blender — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

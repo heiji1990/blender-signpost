@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Photorealistic Lens Simulation in Blender",
+  "url": "https://www.youtube.com/watch?v=1epc9m6OSW0",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "8分",
+  "recommendedOrder": null,
+  "summary": "Photorealistic Lens Simulation in Blender — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

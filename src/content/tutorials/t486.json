@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Cinematic Portrait Lighting Tutorial in Blender",
+  "url": "https://www.youtube.com/watch?v=nIaIlfTtKII",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "lighting",
+    "compositing"
+  ],
+  "goals": [],
+  "duration": "1分",
+  "recommendedOrder": null,
+  "summary": "Cinematic Portrait Lighting Tutorial in Blender — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

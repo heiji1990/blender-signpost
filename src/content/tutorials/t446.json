@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Photorealistic Human Creation In Blender : The Ultimate Guide",
+  "url": "https://www.youtube.com/watch?v=IIdLMzxhOD0",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate",
+    "advanced"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "5分",
+  "recommendedOrder": null,
+  "summary": "Photorealistic Human Creation In Blender : The Ultimate Guide — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

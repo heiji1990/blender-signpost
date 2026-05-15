@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Create Physics Based Car Animations in Blender : An Ultimate Guide",
+  "url": "https://www.youtube.com/watch?v=7fREADlUyiY",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate",
+    "advanced"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "20分",
+  "recommendedOrder": null,
+  "summary": "Create Physics Based Car Animations in Blender : An Ultimate Guide — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

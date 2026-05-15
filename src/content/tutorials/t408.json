@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "How To Add Decals In Blender | Quick Guide",
+  "url": "https://www.youtube.com/watch?v=HTlMz7-q3zY",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "1分",
+  "recommendedOrder": null,
+  "summary": "How To Add Decals In Blender | Quick Guide — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

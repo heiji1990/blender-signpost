@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "MinecraftのワールドをBlenderにインポートする",
+  "url": "https://www.youtube.com/watch?v=pD8H5RR9XSo",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "1分",
+  "recommendedOrder": null,
+  "summary": "MinecraftのワールドをBlenderにインポートする。Blenderのライティング/コンポジット/フォトリアル系チュートリアル（Extra 3d）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "How To Create Snow Footstep Simulations in Blender",
+  "url": "https://www.youtube.com/watch?v=i6b9DAxKY3k",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "2分",
+  "recommendedOrder": null,
+  "summary": "How To Create Snow Footstep Simulations in Blender — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

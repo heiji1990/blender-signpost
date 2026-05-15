@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Free Realistic Glass Shader for Blender",
+  "url": "https://www.youtube.com/watch?v=R23BIwfJSk8",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "1分",
+  "recommendedOrder": null,
+  "summary": "Free Realistic Glass Shader for Blender — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

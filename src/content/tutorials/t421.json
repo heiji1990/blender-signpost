@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "製品アニメーションBlenderチュートリアル",
+  "url": "https://www.youtube.com/watch?v=9xyoA5kug8Y",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "8分",
+  "recommendedOrder": null,
+  "summary": "製品アニメーションBlenderチュートリアル。Blenderのライティング/コンポジット/フォトリアル系チュートリアル（Extra 3d）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

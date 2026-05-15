@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "How to Master PBR Detailing in Blender",
+  "url": "https://www.youtube.com/watch?v=pfZwW3r-MXw",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate",
+    "advanced"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "2分",
+  "recommendedOrder": null,
+  "summary": "How to Master PBR Detailing in Blender — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

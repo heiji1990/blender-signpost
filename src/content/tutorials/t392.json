@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Blender 5.0 でのフォトリアリスティックなテクスチャリング",
+  "url": "https://www.youtube.com/watch?v=8HfKtaDx6tM",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "15分",
+  "recommendedOrder": null,
+  "summary": "Blender 5.0 でのフォトリアリスティックなテクスチャリング。Blenderのライティング/コンポジット/フォトリアル系チュートリアル（Extra 3d）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": "5.0"
+}

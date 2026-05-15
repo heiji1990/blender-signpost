@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Realistic Eevee Render In Blender 5.0 | Breakdown",
+  "url": "https://www.youtube.com/watch?v=YHrua-Jvu2g",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "1分",
+  "recommendedOrder": null,
+  "summary": "Realistic Eevee Render In Blender 5.0 | Breakdown — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": "5.0"
+}

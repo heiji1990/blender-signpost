@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Blenderで映画のような仕上がりを実現 | Cinematic Compositor +",
+  "url": "https://www.youtube.com/watch?v=Yq1LUkSJc00",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "compositing"
+  ],
+  "goals": [],
+  "duration": "4分",
+  "recommendedOrder": null,
+  "summary": "Blenderで映画のような仕上がりを実現 | Cinematic Compositor +。Blenderのライティング/コンポジット/フォトリアル系チュートリアル（Extra 3d）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

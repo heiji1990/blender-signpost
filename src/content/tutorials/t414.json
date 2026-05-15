@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Blenderでリアルな風景を作る",
+  "url": "https://www.youtube.com/watch?v=HABKArUGGYw",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "8分",
+  "recommendedOrder": null,
+  "summary": "Blenderでリアルな風景を作る。Blenderのライティング/コンポジット/フォトリアル系チュートリアル（Extra 3d）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Blenderでリアルな夜間照明を実現する方法",
+  "url": "https://www.youtube.com/watch?v=orYvJTrROhw",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "lighting",
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "2分",
+  "recommendedOrder": null,
+  "summary": "Blenderでリアルな夜間照明を実現する方法。Blenderのライティング/コンポジット/フォトリアル系チュートリアル（Extra 3d）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

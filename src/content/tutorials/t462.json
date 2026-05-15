@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "この無料スターターパックでレンダリングを映画のように美しく",
+  "url": "https://www.youtube.com/watch?v=j9hZEigefF0",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "compositing",
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "1分",
+  "recommendedOrder": null,
+  "summary": "この無料スターターパックでレンダリングを映画のように美しく。Blenderのライティング/コンポジット/フォトリアル系チュートリアル（Extra 3d）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

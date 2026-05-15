@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "10+ Blender Tricks That Made Me Pro",
+  "url": "https://www.youtube.com/watch?v=OSlx5aSkOzM",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate",
+    "advanced"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "5分",
+  "recommendedOrder": null,
+  "summary": "10+ Blender Tricks That Made Me Pro — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Creating The Knight’s Haven In Blender",
+  "url": "https://www.youtube.com/watch?v=ziR5KiP-dp0",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "4分",
+  "recommendedOrder": null,
+  "summary": "Creating The Knight’s Haven In Blender — a Blender lighting / compositing / photoreal tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

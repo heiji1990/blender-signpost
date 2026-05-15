@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Blenderの映画的な照明テクニック",
+  "url": "https://www.youtube.com/watch?v=G3_4u2ZcLN0",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "lighting",
+    "compositing"
+  ],
+  "goals": [],
+  "duration": "8分",
+  "recommendedOrder": null,
+  "summary": "Blenderの映画的な照明テクニック。Blenderのライティング/コンポジット/フォトリアル系チュートリアル（Extra 3d）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

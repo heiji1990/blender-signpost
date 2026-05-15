@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Blenderでリアルな屋外照明を実現",
+  "url": "https://www.youtube.com/watch?v=EHi7T_28Nxk",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "lighting",
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "9分",
+  "recommendedOrder": null,
+  "summary": "Blenderでリアルな屋外照明を実現。Blenderのライティング/コンポジット/フォトリアル系チュートリアル（Extra 3d）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

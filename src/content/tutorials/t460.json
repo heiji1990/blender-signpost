@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "レンダリングを映画のように美しくする10以上のBlenderテクニック",
+  "url": "https://www.youtube.com/watch?v=LIYtVHs9zAA",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "compositing",
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "3分",
+  "recommendedOrder": null,
+  "summary": "レンダリングを映画のように美しくする10以上のBlenderテクニック。Blenderのライティング/コンポジット/フォトリアル系チュートリアル（Extra 3d）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}
