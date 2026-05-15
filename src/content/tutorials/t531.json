@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "How to Create Eyelashes in Blender",
+  "url": "https://www.youtube.com/watch?v=H7QAvpKAyY4",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling"
+  ],
+  "goals": [],
+  "duration": "2分",
+  "recommendedOrder": null,
+  "summary": "How to Create Eyelashes in Blender — a Blender character modeling / sculpting & toon-shader tutorial by adiidiin.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

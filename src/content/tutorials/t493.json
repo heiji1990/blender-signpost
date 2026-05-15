@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Blender キャラクターモデリングチュートリアル | Hollow Knight",
+  "url": "https://www.youtube.com/watch?v=G9NfzpJvB_A",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling",
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "28分",
+  "recommendedOrder": null,
+  "summary": "Blender キャラクターモデリングチュートリアル | Hollow Knight。Blenderのキャラクターモデリング/スカルプト・トゥーン系チュートリアル（adiidiin）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

@@ -1,0 +1,30 @@
+{
+  "type": "tutorial",
+  "title": "簡単なキャラクターモデリング + トゥーンシェーダーチュートリアル (EEVEE)",
+  "url": "https://www.youtube.com/watch?v=KHpvT0DC6GQ",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "ja",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "modeling",
+    "cell_look",
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "26分",
+  "recommendedOrder": null,
+  "summary": "簡単なキャラクターモデリング + トゥーンシェーダーチュートリアル (EEVEE)。Blenderのキャラクターモデリング/スカルプト・トゥーン系チュートリアル（adiidiin）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

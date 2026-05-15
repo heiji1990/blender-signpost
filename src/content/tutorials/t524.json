@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Sculpting a Female Head Tutorial | Blender 3D",
+  "url": "https://www.youtube.com/watch?v=WfpKc8OLNxY",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling"
+  ],
+  "goals": [],
+  "duration": "10分",
+  "recommendedOrder": null,
+  "summary": "Sculpting a Female Head Tutorial | Blender 3D — a Blender character modeling / sculpting & toon-shader tutorial by adiidiin.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

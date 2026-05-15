@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "3D Cute Character Modeling in Blender - Himmel Chibi",
+  "url": "https://www.youtube.com/watch?v=Dxs2fCjuPPI",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling"
+  ],
+  "goals": [],
+  "duration": "11分",
+  "recommendedOrder": null,
+  "summary": "3D Cute Character Modeling in Blender - Himmel Chibi — a Blender character modeling / sculpting & toon-shader tutorial by adiidiin.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

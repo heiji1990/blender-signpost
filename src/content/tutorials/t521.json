@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "簡略化された人間の骨格のモデリング | Blender 3D",
+  "url": "https://www.youtube.com/watch?v=7631L5fBwOA",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling"
+  ],
+  "goals": [],
+  "duration": "3分",
+  "recommendedOrder": null,
+  "summary": "簡略化された人間の骨格のモデリング | Blender 3D。Blenderのキャラクターモデリング/スカルプト・トゥーン系チュートリアル（adiidiin）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

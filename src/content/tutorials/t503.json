@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Sculpting Stylized Character in Blender 3D",
+  "url": "https://www.youtube.com/watch?v=Df1ksDObsco",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling",
+    "cell_look"
+  ],
+  "goals": [],
+  "duration": "6分",
+  "recommendedOrder": null,
+  "summary": "Sculpting Stylized Character in Blender 3D — a Blender character modeling / sculpting & toon-shader tutorial by adiidiin.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

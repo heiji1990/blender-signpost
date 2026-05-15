@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "簡単・シンプル・クリーンな頭部リトポロジーチュートリアル | Blender 3D",
+  "url": "https://www.youtube.com/watch?v=kbCWIRcR-3c",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "ja",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "modeling",
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "7分",
+  "recommendedOrder": null,
+  "summary": "簡単・シンプル・クリーンな頭部リトポロジーチュートリアル | Blender 3D。Blenderのキャラクターモデリング/スカルプト・トゥーン系チュートリアル（adiidiin）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

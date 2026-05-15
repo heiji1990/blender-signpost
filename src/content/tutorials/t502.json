@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Blender でのヘアグルーミング（新しいヘアシステム（ヘアカーブ））",
+  "url": "https://www.youtube.com/watch?v=pQcYoH4H1MM",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling"
+  ],
+  "goals": [],
+  "duration": "6分",
+  "recommendedOrder": null,
+  "summary": "Blender でのヘアグルーミング（新しいヘアシステム（ヘアカーブ））。Blenderのキャラクターモデリング/スカルプト・トゥーン系チュートリアル（adiidiin）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

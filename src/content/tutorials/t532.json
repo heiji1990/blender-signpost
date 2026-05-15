@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "How to Create Eyebrows in Blender",
+  "url": "https://www.youtube.com/watch?v=l8UiTp5A-Cg",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling"
+  ],
+  "goals": [],
+  "duration": "2分",
+  "recommendedOrder": null,
+  "summary": "How to Create Eyebrows in Blender — a Blender character modeling / sculpting & toon-shader tutorial by adiidiin.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

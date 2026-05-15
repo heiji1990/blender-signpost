@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Modeling Head Planes / Base Mesh in Blender 3D",
+  "url": "https://www.youtube.com/watch?v=mAbDd0zbzSo",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling"
+  ],
+  "goals": [],
+  "duration": "5分",
+  "recommendedOrder": null,
+  "summary": "Modeling Head Planes / Base Mesh in Blender 3D — a Blender character modeling / sculpting & toon-shader tutorial by adiidiin.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

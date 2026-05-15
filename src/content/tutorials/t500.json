@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "How I Made Fluffy Dogs in Blender 3D Timelapse",
+  "url": "https://www.youtube.com/watch?v=Na6H94edsqs",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling"
+  ],
+  "goals": [],
+  "duration": "12分",
+  "recommendedOrder": null,
+  "summary": "How I Made Fluffy Dogs in Blender 3D Timelapse — a Blender character modeling / sculpting & toon-shader tutorial by adiidiin.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

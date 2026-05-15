@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Stylized Character Timelapse in Blender 3D - Sherlock Holmes",
+  "url": "https://www.youtube.com/watch?v=O1aKPZdRJ0o",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling",
+    "cell_look"
+  ],
+  "goals": [],
+  "duration": "5分",
+  "recommendedOrder": null,
+  "summary": "Stylized Character Timelapse in Blender 3D - Sherlock Holmes — a Blender character modeling / sculpting & toon-shader tutorial by adiidiin.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

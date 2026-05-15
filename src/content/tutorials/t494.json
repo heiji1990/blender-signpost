@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "3D Modeling Sherma from Hollow Knight: Silksong",
+  "url": "https://www.youtube.com/watch?v=GkNmtGFexTo",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling"
+  ],
+  "goals": [],
+  "duration": "7分",
+  "recommendedOrder": null,
+  "summary": "3D Modeling Sherma from Hollow Knight: Silksong — a Blender character modeling / sculpting & toon-shader tutorial by adiidiin.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

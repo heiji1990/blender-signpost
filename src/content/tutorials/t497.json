@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "手描きスケッチシェーダーチュートリアル（EEVEE）",
+  "url": "https://www.youtube.com/watch?v=xHBV18tQLo4",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "ja",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling",
+    "cell_look",
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "11分",
+  "recommendedOrder": null,
+  "summary": "手描きスケッチシェーダーチュートリアル（EEVEE）。Blenderのキャラクターモデリング/スカルプト・トゥーン系チュートリアル（adiidiin）。",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

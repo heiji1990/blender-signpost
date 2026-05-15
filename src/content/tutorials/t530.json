@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "Easy and Fast Realistic Hair in Blender 3D",
+  "url": "https://www.youtube.com/watch?v=xf418EnZ01M",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "en",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "modeling",
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "2分",
+  "recommendedOrder": null,
+  "summary": "Easy and Fast Realistic Hair in Blender 3D — a Blender character modeling / sculpting & toon-shader tutorial by adiidiin.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

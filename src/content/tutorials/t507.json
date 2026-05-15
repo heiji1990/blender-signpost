@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Cute Character Timelapse in Blender 3D - Frieren Chibi",
+  "url": "https://www.youtube.com/watch?v=MBJlTSq_qT8",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling"
+  ],
+  "goals": [],
+  "duration": "10分",
+  "recommendedOrder": null,
+  "summary": "Cute Character Timelapse in Blender 3D - Frieren Chibi — a Blender character modeling / sculpting & toon-shader tutorial by adiidiin.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}
