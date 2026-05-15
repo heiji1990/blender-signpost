@@ -1,0 +1,30 @@
+{
+  "type": "tutorial",
+  "title": "Stylized Shader Breakdown - Blender 3D",
+  "url": "https://www.youtube.com/watch?v=_DPwjnzCCVM",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "redblueen",
+  "language": "en",
+  "level": [
+    "intermediate",
+    "advanced"
+  ],
+  "categories": [
+    "cell_look",
+    "motion_design",
+    "compositing"
+  ],
+  "goals": [],
+  "duration": "3分",
+  "recommendedOrder": null,
+  "summary": "Stylized Shader Breakdown - Blender 3D — a stylized 90s cel-look Blender animation / shader breakdown by redblueen.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

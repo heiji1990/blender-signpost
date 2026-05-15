@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Watching it burn (with Behind the scenes) - Blender & EEVEE",
+  "url": "https://www.youtube.com/watch?v=67neRNX6a3w",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "redblueen",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "cell_look"
+  ],
+  "goals": [],
+  "duration": "2分",
+  "recommendedOrder": null,
+  "summary": "Watching it burn (with Behind the scenes) - Blender & EEVEE — a stylized 90s cel-look Blender animation / shader breakdown by redblueen.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

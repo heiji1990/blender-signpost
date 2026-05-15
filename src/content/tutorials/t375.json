@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "The Eyes of Seiran. Blender Stylized Animation",
+  "url": "https://www.youtube.com/watch?v=zIJDpSJL1wQ",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "redblueen",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "cell_look",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "1分",
+  "recommendedOrder": null,
+  "summary": "The Eyes of Seiran. Blender Stylized Animation — a stylized 90s cel-look Blender animation / shader breakdown by redblueen.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

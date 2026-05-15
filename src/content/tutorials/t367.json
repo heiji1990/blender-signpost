@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Blender NPR Cinematic Clip. Trueno AE86 Multi-Cam & Grease Pencil",
+  "url": "https://www.youtube.com/watch?v=eu0-HEL5X0w",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "redblueen",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "cell_look",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "2分",
+  "recommendedOrder": null,
+  "summary": "Blender NPR Cinematic Clip. Trueno AE86 Multi-Cam & Grease Pencil — a stylized 90s cel-look Blender animation / shader breakdown by redblueen.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Mobile Suit Gundam Tribute | Stylized 3D Blender Animation",
+  "url": "https://www.youtube.com/watch?v=SQQCKa3y3pw",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "redblueen",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "cell_look",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "1分",
+  "recommendedOrder": null,
+  "summary": "Mobile Suit Gundam Tribute | Stylized 3D Blender Animation — a stylized 90s cel-look Blender animation / shader breakdown by redblueen.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

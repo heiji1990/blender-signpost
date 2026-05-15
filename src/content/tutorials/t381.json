@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Stylized Animation - Blender  Timelapse",
+  "url": "https://www.youtube.com/watch?v=JEFtxIj4n58",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "redblueen",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "cell_look",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "25分",
+  "recommendedOrder": null,
+  "summary": "Stylized Animation - Blender Timelapse — a stylized 90s cel-look Blender animation / shader breakdown by redblueen.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}

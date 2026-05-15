@@ -1,0 +1,29 @@
+{
+  "type": "tutorial",
+  "title": "Ground speed lines breakdown (Blender)",
+  "url": "https://www.youtube.com/watch?v=qx8AfD2NQ-g",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "redblueen",
+  "language": "en",
+  "level": [
+    "intermediate",
+    "advanced"
+  ],
+  "categories": [
+    "cell_look",
+    "compositing"
+  ],
+  "goals": [],
+  "duration": "1分",
+  "recommendedOrder": null,
+  "summary": "Ground speed lines breakdown (Blender — a stylized 90s cel-look Blender animation / shader breakdown by redblueen.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-15",
+  "status": "active",
+  "publishedAt": null,
+  "blenderVersion": null
+}
