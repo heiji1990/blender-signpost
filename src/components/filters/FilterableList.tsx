@@ -2,6 +2,7 @@ import { useState } from 'react';
 import FilterBar from './FilterBar';
 import type { FilterValues } from './FilterBar';
 import { useTranslations as getTranslations } from '../../i18n/ui';
+import { resolveLink } from '../../lib/affiliate';
 import type { Lang } from '../../i18n/ui';
 
 interface ContentItem {
@@ -44,7 +45,7 @@ function getYearBucket(publishedAt: string | undefined | null): string | null {
 }
 
 function Card({ item, t, base }: { item: ContentItem; t: ReturnType<typeof useTranslations>; base: string }) {
-  const linkUrl = item.isAffiliate && item.affiliateUrl ? item.affiliateUrl : item.url;
+  const { href: linkUrl, rel: linkRel } = resolveLink(item);
 
   const levelLabels: Record<string, string> = {
     beginner_zero: t.level.beginner_zero,
@@ -128,7 +129,7 @@ function Card({ item, t, base }: { item: ContentItem; t: ReturnType<typeof useTr
         <a
           href={linkUrl}
           target="_blank"
-          rel={item.isAffiliate ? 'nofollow noopener noreferrer' : 'noopener noreferrer'}
+          rel={linkRel}
           className="text-xs font-medium text-blue-700 hover:text-blue-500"
         >
           {t.card.view}

@@ -9,6 +9,7 @@ interface Props {
   description?: string;
   ogImage?: string;
   noIndex?: boolean;
+  jsonLd?: object | object[];
 }
 
 const lang = (Astro.currentLocale ?? 'ja') as 'ja' | 'en';
@@ -19,12 +20,28 @@ const {
   description = t.siteDesc,
   ogImage = '/og-default.png',
   noIndex = false,
+  jsonLd,
 } = Astro.props;
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? 'https://blender-michishirube.com');
+const siteOrigin = Astro.site ?? new URL('https://blender-michishirube.com');
+const canonicalURL = new URL(Astro.url.pathname, siteOrigin);
 const ogImageURL = /^https?:\/\//.test(ogImage)
   ? ogImage
   : new URL(ogImage, canonicalURL).toString();
+
+// hreflang: ja and en mirror 1:1 (en under /en/ prefix)
+const path = Astro.url.pathname;
+const jaPath = lang === 'en' ? (path.replace(/^\/en(?=\/|$)/, '') || '/') : path;
+const enPath = jaPath === '/' ? '/en/' : '/en' + jaPath;
+const jaURL = new URL(jaPath, siteOrigin).toString();
+const enURL = new URL(enPath, siteOrigin).toString();
+
+const jsonLdList = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+
+const GA_ID = import.meta.env.PUBLIC_GA_ID;
+const ADSENSE_CLIENT = import.meta.env.PUBLIC_ADSENSE_CLIENT;
+const analyticsOn = import.meta.env.PROD && GA_ID;
+const adsenseOn = import.meta.env.PROD && ADSENSE_CLIENT;
 ---
 
 <!doctype html>
@@ -40,6 +57,15 @@ const ogImageURL = /^https?:\/\//.test(ogImage)
     <link rel="canonical" href={canonicalURL} />
     {noIndex && <meta name="robots" content="noindex" />}
 
+    <!-- hreflang (ja/en mirror) -->
+    <link rel="alternate" hreflang="ja" href={jaURL} />
+    <link rel="alternate" hreflang="en" href={enURL} />
+    <link rel="alternate" hreflang="x-default" href={jaURL} />
+
+    {jsonLdList.map((obj) => (
+      <script type="application/ld+json" set:html={JSON.stringify(obj)} />
+    ))}
+
     <!-- OGP -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalURL} />
@@ -53,11 +79,28 @@ const ogImageURL = /^https?:\/\//.test(ogImage)
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
 
-    <!-- Google Analytics (差し込み口) -->
-    <!-- GA_PLACEHOLDER -->
+    <!-- Google Analytics (PUBLIC_GA_ID 設定時のみ・本番のみ) -->
+    {analyticsOn && (
+      <>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>
+        <script is:inline define:vars={{ GA_ID }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', GA_ID);
+        </script>
+      </>
+    )}
 
-    <!-- Google AdSense (差し込み口) -->
-    <!-- ADSENSE_PLACEHOLDER -->
+    <!-- Google AdSense ローダ (PUBLIC_ADSENSE_CLIENT 設定時のみ・本番のみ) -->
+    {adsenseOn && (
+      <script
+        is:inline
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+        crossorigin="anonymous"
+      ></script>
+    )}
   </head>
   <body class="min-h-screen flex flex-col bg-[var(--color-surface)]">
     <Header />

@@ -3,6 +3,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection, getEntry } from 'astro:content';
 import { levelLabels, platformLabels, platformIcons, categoryLabels } from '../../lib/labels';
 import { getYouTubeThumbnail } from '../../lib/youtube';
+import { resolveLink } from '../../lib/affiliate';
+import { breadcrumb, videoLd } from '../../lib/jsonld';
 
 export async function getStaticPaths() {
   const tutorials = await getCollection('tutorials');
@@ -11,11 +13,22 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const d = entry.data;
-const linkUrl = d.isAffiliate && d.affiliateUrl ? d.affiliateUrl : d.url;
+const { href, rel } = resolveLink(d);
 const ogImage = getYouTubeThumbnail(d.url) ?? undefined;
+
+const jsonLd: object[] = [
+  breadcrumb([
+    { name: 'ホーム', path: '/' },
+    { name: 'チュートリアル', path: '/tutorials' },
+    { name: d.title, path: `/tutorials/${entry.id}` },
+  ]),
+];
+if (ogImage) {
+  jsonLd.push(videoLd({ title: d.title, summary: d.summary, thumbnail: ogImage, uploadDate: d.publishedAt }));
+}
 ---
 
-<BaseLayout title={d.title} description={d.summary} ogImage={ogImage}>
+<BaseLayout title={d.title} description={d.summary} ogImage={ogImage} jsonLd={jsonLd}>
   <div class="max-w-3xl mx-auto px-4 py-10">
     <a href="/tutorials" class="text-sm text-gray-500 hover:text-gray-700 mb-6 inline-block">← チュートリアル一覧</a>
 
@@ -90,9 +103,9 @@ const ogImage = getYouTubeThumbnail(d.url) ?? undefined;
 
       <!-- CTA -->
       <a
-        href={linkUrl}
+        href={href}
         target="_blank"
-        rel={d.isAffiliate ? 'nofollow noopener noreferrer' : 'noopener noreferrer'}
+        rel={rel}
         class="inline-flex items-center gap-2 px-6 py-3 bg-[var(--color-blender-blue)] text-white font-semibold rounded-lg hover:bg-[var(--color-blender-blue-light)] transition-colors"
       >
         {platformIcons[d.platform]} チュートリアルを見る

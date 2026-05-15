@@ -2,6 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { levelLabels, platformLabels, platformIcons, categoryLabels } from '../../lib/labels';
+import { resolveLink } from '../../lib/affiliate';
+import { breadcrumb, courseLd } from '../../lib/jsonld';
 
 export async function getStaticPaths() {
   const courses = await getCollection('courses');
@@ -10,10 +12,19 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const d = entry.data;
-const linkUrl = d.isAffiliate && d.affiliateUrl ? d.affiliateUrl : d.url;
+const { href, rel } = resolveLink(d);
+
+const jsonLd = [
+  breadcrumb([
+    { name: 'ホーム', path: '/' },
+    { name: '有料講座', path: '/courses' },
+    { name: d.title, path: `/courses/${entry.id}` },
+  ]),
+  courseLd({ title: d.title, summary: d.summary, creator: d.creator }),
+];
 ---
 
-<BaseLayout title={d.title} description={d.summary} ogImage={`/og/course-${entry.id}.png`}>
+<BaseLayout title={d.title} description={d.summary} ogImage={`/og/course-${entry.id}.png`} jsonLd={jsonLd}>
   <div class="max-w-3xl mx-auto px-4 py-10">
     <a href="/courses" class="text-sm text-gray-500 hover:text-gray-700 mb-6 inline-block">← 有料講座一覧</a>
 
@@ -62,9 +73,9 @@ const linkUrl = d.isAffiliate && d.affiliateUrl ? d.affiliateUrl : d.url;
       </div>
 
       <a
-        href={linkUrl}
+        href={href}
         target="_blank"
-        rel={d.isAffiliate ? 'nofollow noopener noreferrer' : 'noopener noreferrer'}
+        rel={rel}
         class="inline-flex items-center gap-2 px-6 py-3 bg-[var(--color-blender-blue)] text-white font-semibold rounded-lg hover:bg-[var(--color-blender-blue-light)] transition-colors"
       >
         {platformIcons[d.platform]} 講座ページを見る

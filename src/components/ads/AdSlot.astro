@@ -1,0 +1,24 @@
+---
+// Reserved-height AdSense slot. Renders nothing until PUBLIC_ADSENSE_CLIENT is set in prod
+// (kept dark to avoid layout shift / policy issues before approval).
+interface Props {
+  slot?: string;
+  minHeight?: number;
+}
+const { slot, minHeight = 280 } = Astro.props;
+const client = import.meta.env.PUBLIC_ADSENSE_CLIENT;
+const enabled = import.meta.env.PROD && client && slot;
+---
+{enabled && (
+  <div class="my-8 flex justify-center" style={`min-height:${minHeight}px`}>
+    <ins
+      class="adsbygoogle"
+      style="display:block;width:100%"
+      data-ad-client={client}
+      data-ad-slot={slot}
+      data-ad-format="auto"
+      data-full-width-responsive="true"
+    ></ins>
+    <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+)}
