@@ -8,11 +8,18 @@ import { breadcrumb, softwareLd } from '../../../lib/jsonld';
 
 export async function getStaticPaths() {
   const addons = await getCollection('addons');
-  return addons.map((a) => ({ params: { slug: a.id }, props: { entry: a } }));
+  const active = addons.filter((a) => a.data.status === 'active');
+  return addons.map((a) => {
+    const related = active
+      .filter((x) => x.id !== a.id && x.data.categories.some((c) => a.data.categories.includes(c)))
+      .slice(0, 6)
+      .map((x) => ({ id: x.id, title: x.data.title, creator: x.data.creator }));
+    return { params: { slug: a.id }, props: { entry: a, related } };
+  });
 }
 
 const t = useTranslations('en');
-const { entry } = Astro.props;
+const { entry, related } = Astro.props;
 const d = entry.data;
 const { href, rel } = resolveLink(d);
 
@@ -95,5 +102,21 @@ const platformLabels: Record<string, string> = {
 
       <p class="text-xs text-gray-400 mt-4 border-t border-slate-100 pt-4">{t.detail.addonPolicy}</p>
     </div>
+
+    {related.length > 0 && (
+      <section class="mt-8">
+        <h2 class="text-base font-bold text-gray-900 mb-3">Related add-ons</h2>
+        <ul class="grid sm:grid-cols-2 gap-2">
+          {related.map((r) => (
+            <li>
+              <a href={`/en/addons/${r.id}`} class="block bg-white rounded-lg border border-[var(--color-border)] px-4 py-3 hover:border-[var(--color-blender-blue)] transition-colors">
+                <span class="text-sm font-medium text-gray-800 line-clamp-1">{r.title}</span>
+                <span class="text-xs text-gray-500 block mt-0.5">{r.creator}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
   </div>
 </BaseLayout>

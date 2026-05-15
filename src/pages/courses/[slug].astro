@@ -7,10 +7,17 @@ import { breadcrumb, courseLd } from '../../lib/jsonld';
 
 export async function getStaticPaths() {
   const courses = await getCollection('courses');
-  return courses.map((c) => ({ params: { slug: c.id }, props: { entry: c } }));
+  const active = courses.filter((c) => c.data.status === 'active');
+  return courses.map((c) => {
+    const related = active
+      .filter((x) => x.id !== c.id && x.data.categories.some((cat) => c.data.categories.includes(cat)))
+      .slice(0, 6)
+      .map((x) => ({ id: x.id, title: x.data.title, creator: x.data.creator }));
+    return { params: { slug: c.id }, props: { entry: c, related } };
+  });
 }
 
-const { entry } = Astro.props;
+const { entry, related } = Astro.props;
 const d = entry.data;
 const { href, rel } = resolveLink(d);
 
@@ -88,5 +95,21 @@ const jsonLd = [
         </p>
       )}
     </div>
+
+    {related.length > 0 && (
+      <section class="mt-8">
+        <h2 class="text-base font-bold text-gray-900 mb-3">関連する有料講座</h2>
+        <ul class="grid sm:grid-cols-2 gap-2">
+          {related.map((r) => (
+            <li>
+              <a href={`/courses/${r.id}`} class="block bg-white rounded-lg border border-[var(--color-border)] px-4 py-3 hover:border-[var(--color-blender-blue)] transition-colors">
+                <span class="text-sm font-medium text-gray-800 line-clamp-1">{r.title}</span>
+                <span class="text-xs text-gray-500 block mt-0.5">{r.creator}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
   </div>
 </BaseLayout>
