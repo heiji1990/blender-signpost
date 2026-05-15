@@ -142,6 +142,7 @@ interface Props {
   items: ContentItem[];
   showBlenderVersion?: boolean;
   showPublishedYear?: boolean;
+  showCreator?: boolean;
   lang?: Lang;
 }
 
@@ -149,14 +150,19 @@ export default function FilterableList({
   items,
   showBlenderVersion = false,
   showPublishedYear = false,
+  showCreator = false,
   lang = 'ja',
 }: Props) {
   const t = getTranslations(lang);
   const base = lang === 'en' ? '/en' : '';
 
   const [filters, setFilters] = useState<FilterValues>({
-    level: '', priceType: '', category: '', query: '', blenderVersion: '', publishedYear: '',
+    level: '', priceType: '', category: '', creator: '', query: '', blenderVersion: '', publishedYear: '',
   });
+
+  const creatorOptions = [...new Set(items.map((i) => i.creator).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b))
+    .map((c) => ({ value: c, label: c }));
 
   const blenderVersionOptions = (() => {
     const versions = [...new Set(
@@ -173,6 +179,7 @@ export default function FilterableList({
     if (filters.level && !item.level.includes(filters.level)) return false;
     if (filters.priceType && item.priceType !== filters.priceType) return false;
     if (filters.category && !item.categories.includes(filters.category)) return false;
+    if (filters.creator && item.creator !== filters.creator) return false;
     if (filters.query) {
       const q = filters.query.toLowerCase();
       if (!item.title.toLowerCase().includes(q) && !item.creator.toLowerCase().includes(q)) return false;
@@ -192,6 +199,8 @@ export default function FilterableList({
         showBlenderVersion={showBlenderVersion}
         blenderVersionOptions={blenderVersionOptions}
         showPublishedYear={showPublishedYear}
+        showCreator={showCreator}
+        creatorOptions={creatorOptions}
         t={t}
       />
       <p className="text-sm text-gray-500">{filtered.length}{t.filter.results}</p>

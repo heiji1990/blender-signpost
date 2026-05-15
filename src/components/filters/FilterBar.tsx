@@ -5,6 +5,7 @@ export interface FilterValues {
   level: string;
   priceType: string;
   category: string;
+  creator: string;
   query: string;
   blenderVersion: string;
   publishedYear: string;
@@ -15,6 +16,8 @@ interface Props {
   showBlenderVersion?: boolean;
   blenderVersionOptions?: { value: string; label: string }[];
   showPublishedYear?: boolean;
+  showCreator?: boolean;
+  creatorOptions?: { value: string; label: string }[];
   t: Translations;
 }
 
@@ -23,6 +26,8 @@ export default function FilterBar({
   showBlenderVersion = false,
   blenderVersionOptions = [],
   showPublishedYear = false,
+  showCreator = false,
+  creatorOptions = [],
   t,
 }: Props) {
 
@@ -74,6 +79,7 @@ export default function FilterBar({
   const [level, setLevel] = useState('');
   const [priceType, setPriceType] = useState('');
   const [category, setCategory] = useState('');
+  const [creator, setCreator] = useState('');
   const [query, setQuery] = useState('');
   const [blenderVersion, setBlenderVersion] = useState('');
   const [publishedYear, setPublishedYear] = useState('');
@@ -87,19 +93,21 @@ export default function FilterBar({
     const q = params.get('q');
     const ver = params.get('ver');
     const year = params.get('year');
+    const cr = params.get('creator');
     if (cat) setCategory(cat);
     if (lv) setLevel(lv);
     if (pt) setPriceType(pt);
     if (q) setQuery(q);
     if (ver) setBlenderVersion(ver);
     if (year) setPublishedYear(year);
+    if (cr) setCreator(cr);
   }, []);
 
   useEffect(() => {
-    onFilter({ level, priceType, category, query, blenderVersion, publishedYear });
-  }, [level, priceType, category, query, blenderVersion, publishedYear]);
+    onFilter({ level, priceType, category, creator, query, blenderVersion, publishedYear });
+  }, [level, priceType, category, creator, query, blenderVersion, publishedYear]);
 
-  const hasFilter = level || priceType || category || query || blenderVersion || publishedYear;
+  const hasFilter = level || priceType || category || creator || query || blenderVersion || publishedYear;
 
   const sel = "text-sm border border-slate-200 rounded-lg px-3 py-1.5 focus:outline-none focus:border-blue-400 bg-white";
 
@@ -129,6 +137,13 @@ export default function FilterBar({
           {categoryOptions.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
         </select>
 
+        {showCreator && creatorOptions.length > 0 && (
+          <select value={creator} onChange={(e) => setCreator(e.target.value)} className={sel}>
+            <option value="">{t.filter.allCreators}</option>
+            {creatorOptions.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
+          </select>
+        )}
+
         {showBlenderVersion && blenderVersionOptions.length > 0 && (
           <select value={blenderVersion} onChange={(e) => setBlenderVersion(e.target.value)} className={sel}>
             <option value="">{t.filter.allVersions}</option>
@@ -145,7 +160,7 @@ export default function FilterBar({
         {hasFilter && (
           <button
             onClick={() => {
-              setLevel(''); setPriceType(''); setCategory(''); setQuery('');
+              setLevel(''); setPriceType(''); setCategory(''); setCreator(''); setQuery('');
               setBlenderVersion(''); setPublishedYear('');
             }}
             className="text-sm text-gray-500 hover:text-gray-700 px-2"

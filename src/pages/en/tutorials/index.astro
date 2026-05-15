@@ -33,6 +33,6 @@ const items = tutorials.map((t) => ({
       <h1 class="text-2xl font-bold text-gray-900 mb-2">▶️ Tutorials</h1>
       <p class="text-gray-600 text-sm">Browse free Blender tutorials by level, category, and platform.</p>
     </div>
-    <FilterableList items={items} showBlenderVersion={true} showPublishedYear={true} lang="en" client:load />
+    <FilterableList items={items} showBlenderVersion={true} showPublishedYear={true} showCreator={true} lang="en" client:load />
   </div>
 </BaseLayout>
