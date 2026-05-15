@@ -19,10 +19,8 @@ on:
         required: false
         default: false
         type: boolean
-  # 動作確認後にコメント解除して定期投稿を有効化
-  # schedule:
-  #   - cron: '0 23 * * *'   # 08:00 JST daily
-  #   - cron: '0 11 * * *'   # 20:00 JST daily
+  schedule:
+    - cron: '0 23 * * *'   # 08:00 JST daily (1日1回)
 
 jobs:
   post:
@@ -46,4 +44,4 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
-        run: node scripts/post-to-x.js ${{ inputs.mode }}
+        run: node scripts/post-to-x.js ${{ inputs.mode || 'random' }}
