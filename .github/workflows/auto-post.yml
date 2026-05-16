@@ -10,6 +10,7 @@ on:
         type: choice
         options:
           - test
+          - auto
           - painpoint
           - random
           - tutorial
@@ -21,7 +22,7 @@ on:
         default: false
         type: boolean
   schedule:
-    - cron: '0 23 * * 0'   # Mon 08:00 JST weekly (週1・お悩み投稿)
+    - cron: '0 23 * * *'   # Daily 08:00 JST (auto: 偶数日painpoint / 奇数日random)
 
 jobs:
   post:
@@ -45,4 +46,4 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
-        run: node scripts/post-to-x.js ${{ inputs.mode || 'painpoint' }}
+        run: node scripts/post-to-x.js ${{ inputs.mode || 'auto' }}

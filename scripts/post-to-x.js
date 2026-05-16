@@ -159,7 +159,12 @@ function buildPainpointPost(pain, item) {
 }
 
 async function main() {
-  const mode = process.argv[2] || 'test';
+  let mode = process.argv[2] || 'test';
+  if (mode === 'auto') {
+    // 日次運用: 偶数日=painpoint / 奇数日=random でネタの鮮度を保つ
+    mode = new Date().getUTCDate() % 2 === 0 ? 'painpoint' : 'random';
+    console.log(`[auto] day-parity -> mode=${mode}`);
+  }
 
   let text;
   if (mode === 'test') {
