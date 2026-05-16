@@ -1,0 +1,23 @@
+{
+  "type": "tutorial",
+  "title": "The Coolest Way to Subdivide in Blender (Tutorial)",
+  "url": "https://www.youtube.com/watch?v=gzWS5hQUVFo",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": ["intermediate"],
+  "categories": ["modeling", "motion_design"],
+  "goals": [],
+  "duration": "18分",
+  "recommendedOrder": null,
+  "summary": "The Coolest Way to Subdivide in Blender — a Blender modeling / motion design tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-16",
+  "status": "active",
+  "publishedAt": "2026-04-16",
+  "blenderVersion": null
+}

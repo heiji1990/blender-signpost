@@ -1,0 +1,23 @@
+{
+  "type": "tutorial",
+  "title": "You Should Try this Blender Color Hack",
+  "url": "https://www.youtube.com/watch?v=U5y1Krd-ykk",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": ["intermediate"],
+  "categories": ["motion_design", "photorealistic"],
+  "goals": [],
+  "duration": "17分",
+  "recommendedOrder": null,
+  "summary": "You Should Try this Blender Color Hack — a Blender motion design / look-dev tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-16",
+  "status": "active",
+  "publishedAt": "2026-05-12",
+  "blenderVersion": null
+}

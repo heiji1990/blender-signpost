@@ -1,0 +1,23 @@
+{
+  "type": "tutorial",
+  "title": "How Apple Makes 3D Wallpapers (Blender Tutorial)",
+  "url": "https://www.youtube.com/watch?v=KhBaHDvIamw",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": ["intermediate"],
+  "categories": ["motion_design", "photorealistic"],
+  "goals": [],
+  "duration": "15分",
+  "recommendedOrder": null,
+  "summary": "How Apple Makes 3D Wallpapers — a Blender motion design / rendering tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-05-16",
+  "status": "active",
+  "publishedAt": "2026-04-25",
+  "blenderVersion": null
+}
