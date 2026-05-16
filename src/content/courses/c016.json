@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "【物理演算の基礎を総ざらい！】Blender つくって学ぶ物理アニメーション",
+    "url": "https://www.udemy.com/course/2021-ass/",
+    "platform": "udemy",
+    "priceType": "paid",
+    "price": null,
+    "creator": "うめちゃん",
+    "language": "ja",
+    "level": ["beginner", "intermediate"],
+    "categories": ["motion_design", "modeling"],
+    "goals": [],
+    "duration": "5時間25分",
+    "recommendedOrder": null,
+    "summary": "剛体・流体・煙・ソフトボディ・布・ダイナミックペイントなど、Blenderの物理演算を作りながら総ざらいする講座。物理アニメーションの基礎を実践で身につけます。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-16",
+    "status": "active"
+}

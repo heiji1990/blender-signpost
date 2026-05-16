@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "【基礎から応用まで幅広く】Blender パーティクルシステム講座",
+    "url": "https://www.udemy.com/course/2021-rmi/",
+    "platform": "udemy",
+    "priceType": "paid",
+    "price": null,
+    "creator": "うめちゃん",
+    "language": "ja",
+    "level": ["beginner", "intermediate"],
+    "categories": ["motion_design", "modeling"],
+    "goals": [],
+    "duration": "4時間41分",
+    "recommendedOrder": null,
+    "summary": "パーティクルシステムを基礎から応用まで幅広く学ぶ講座。布シミュレーションやモディファイアと組み合わせ、ダイナミックなエフェクト表現を習得します。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-16",
+    "status": "active"
+}
