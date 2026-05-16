@@ -12,8 +12,6 @@ permissions:
 jobs:
   detect:
     runs-on: ubuntu-latest
-    env:
-      TEMP: ${{ runner.temp }}
     steps:
       - uses: actions/checkout@v4
 

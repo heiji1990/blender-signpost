@@ -14,7 +14,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const TUT_DIR = join(__dirname, '..', 'src', 'content', 'tutorials');
 const DRY = process.argv.includes('--dry');
-const TMP = process.env.TEMP || process.env.TMPDIR || '/tmp';
+const TMP = process.env.RUNNER_TEMP || process.env.TEMP || process.env.TMPDIR || '/tmp';
 
 const CHANNELS = {
   '3dbibi':   { creator: '3D Bibi',   lang: 'ja',   fullyImported: true },
