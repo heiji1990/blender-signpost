@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "【次に学びたい】Blenderモデリングスキルアップ集中講座Part2",
+    "url": "https://www.udemy.com/course/blender-modeling2/",
+    "platform": "udemy",
+    "priceType": "paid",
+    "price": null,
+    "creator": "うめちゃん",
+    "language": "ja",
+    "level": ["intermediate"],
+    "categories": ["modeling", "lighting"],
+    "goals": [],
+    "duration": "7時間6分",
+    "recommendedOrder": null,
+    "summary": "ベベル・クリース・カーブなど実践的なモデリング技術を、ライティングとマテリアル調整まで含めて学べる中級講座。集中講座Part1の次のステップに。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-16",
+    "status": "active"
+}

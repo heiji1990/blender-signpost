@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "【Blender総合学習の決定版!!】Blenderアクアリウム講座",
+    "url": "https://www.udemy.com/course/aquarium/",
+    "platform": "udemy",
+    "priceType": "paid",
+    "price": null,
+    "creator": "うめちゃん",
+    "language": "ja",
+    "level": ["beginner", "intermediate"],
+    "categories": ["modeling", "photorealistic", "motion_design"],
+    "goals": [],
+    "duration": "6時間1分",
+    "recommendedOrder": null,
+    "summary": "デジタル水槽を作りながらモデリング・パーティクル・物理・テクスチャを総合的に学べる人気講座。魚・水草・ライティングでリアルな水中シーンを構築します。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-16",
+    "status": "active"
+}

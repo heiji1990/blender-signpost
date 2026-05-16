@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "手軽に始めるBlender GeometryNodes：初心者向け基礎講座",
+    "url": "https://www.udemy.com/course/blender-geometorynodes/",
+    "platform": "udemy",
+    "priceType": "paid",
+    "price": null,
+    "creator": "ヘイジ",
+    "language": "ja",
+    "level": ["beginner", "intermediate"],
+    "categories": ["geometry_nodes", "motion_design", "modeling"],
+    "goals": [],
+    "duration": "2時間55分",
+    "recommendedOrder": null,
+    "summary": "ジオメトリノードの基礎を体系的に学べる初心者向け講座。オブジェクト配置・パラメータ調整を、スライドと実作業で理解し、モデリング＋アニメの4作品を完成させます。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-16",
+    "status": "active"
+}

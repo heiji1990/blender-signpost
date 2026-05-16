@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "【無料のプチ講座】最新Blender3.3で３DCGデビューしよう！",
+    "url": "https://www.udemy.com/course/blenderpetit/",
+    "platform": "udemy",
+    "priceType": "free",
+    "price": null,
+    "creator": "うめちゃん",
+    "language": "ja",
+    "level": ["beginner_zero", "beginner"],
+    "categories": ["beginner", "modeling"],
+    "goals": [],
+    "duration": "1時間36分",
+    "recommendedOrder": null,
+    "summary": "Blenderの全体像をつかみ、初めての3D作品（帽子づくり）を作る無料の入門プチ講座。これからBlenderを始める人の最初の一本に。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-16",
+    "status": "active"
+}
