@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "【シェーダー中心の総合学習！】Blenderプラネット講座vol.2",
+    "url": "https://www.udemy.com/course/planetvol2/",
+    "platform": "udemy",
+    "priceType": "paid",
+    "price": null,
+    "creator": "うめちゃん",
+    "language": "ja",
+    "level": ["beginner", "intermediate"],
+    "categories": ["motion_design", "photorealistic", "modeling"],
+    "goals": [],
+    "duration": "4時間31分",
+    "recommendedOrder": null,
+    "summary": "幻想的な水の惑星を作りながら、マテリアルシェーダー・変形モディファイア・パーティクルでの樹木生成・ボリュームの雲表現を学ぶシェーダー中心の総合講座。プラネット講座vol.1の次に。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-16",
+    "status": "active"
+}

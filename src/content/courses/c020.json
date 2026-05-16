@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "【最新Blender4.5LTS・生成AI×Blender総合学習】AIで可能性無限大！3DCGアクアリウム制作コース",
+    "url": "https://www.udemy.com/course/blenderaquarium/",
+    "platform": "udemy",
+    "priceType": "paid",
+    "price": null,
+    "creator": "うめちゃん",
+    "language": "ja",
+    "level": ["beginner", "intermediate"],
+    "categories": ["modeling", "photorealistic", "motion_design"],
+    "goals": [],
+    "duration": "13時間7分",
+    "recommendedOrder": null,
+    "summary": "最新Blender4.5LTS対応。3Dアクアリウムを作りながらモデリング・テクスチャ・シェーディング・パーティクル・物理を総合的に学び、生成AIで水草や熱帯魚のバリエーションも制作する大型講座。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-16",
+    "status": "active"
+}

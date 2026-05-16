@@ -1,0 +1,23 @@
+{
+    "type": "course",
+    "title": "【最新Blender4.5LTS・実践！】Blender2D風モデリング＆アニメーション制作コース",
+    "url": "https://www.udemy.com/course/blender-2dlike-animation/",
+    "platform": "udemy",
+    "priceType": "paid",
+    "price": null,
+    "creator": "うめちゃん",
+    "language": "ja",
+    "level": ["beginner", "intermediate"],
+    "categories": ["cell_look", "motion_design", "modeling"],
+    "goals": [],
+    "duration": "9時間5分",
+    "recommendedOrder": null,
+    "summary": "最新Blender4.5LTS対応。惑星・キャラ・UFOなどを作りながら、モデリング、ループ／ノンリニアアニメーション、グリースペンシルの2D風表現までを実践で学ぶコース。",
+    "comment": null,
+    "affiliateUrl": null,
+    "isAffiliate": false,
+    "isPr": false,
+    "publishedAt": null,
+    "updatedAt": "2026-05-16",
+    "status": "active"
+}
