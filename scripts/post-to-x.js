@@ -108,6 +108,25 @@ function isoWeek(d = new Date()) {
 
 const intersects = (a = [], b = []) => a.some((x) => b.includes(x));
 
+// 公開日の新しさで重み付け（古い5年前ネタが当たり続けるのを防ぐ）
+function recencyWeight(publishedAt) {
+  if (!publishedAt || !/^\d{4}-\d{2}-\d{2}/.test(publishedAt)) return 2.5; // 不明は中立
+  const years = (Date.now() - new Date(publishedAt).getTime()) / (365.25 * 24 * 3600 * 1000);
+  if (years < 1) return 6;
+  if (years < 2) return 4;
+  if (years < 3) return 3;
+  if (years < 4) return 2;
+  return 1;
+}
+
+function weightedPick(pool) {
+  const w = pool.map((it) => recencyWeight(it.publishedAt));
+  const total = w.reduce((a, b) => a + b, 0);
+  let r = Math.random() * total;
+  for (let i = 0; i < pool.length; i++) { r -= w[i]; if (r <= 0) return pool[i]; }
+  return pool[pool.length - 1];
+}
+
 function matchContent(pain, { tutorials, courses, addons }) {
   const m = pain.match || {};
   let base;
@@ -127,6 +146,8 @@ function matchContent(pain, { tutorials, courses, addons }) {
     if (m.level && intersects(it.level, m.level)) s += 2;                                // level fit
     s += kws.filter((k) => title.includes(k)).length * 4;                               // keyword-in-title (strong)
     if (it.language === 'ja') s += 1;                                                    // JP audience preference
+    const rw = recencyWeight(it.publishedAt);                                            // freshness bonus
+    s += rw >= 6 ? 3 : rw >= 4 ? 2 : rw >= 3 ? 1 : 0;
     return s;
   };
 
@@ -205,8 +226,8 @@ async function main() {
       process.exit(1);
     }
 
-    const pick = pool[Math.floor(Math.random() * pool.length)];
-    console.log(`Picked [${pick.type}/${pick.id}]: ${pick.title}`);
+    const pick = weightedPick(pool);
+    console.log(`Picked [${pick.type}/${pick.id}] (${pick.publishedAt ?? 'no-date'}): ${pick.title}`);
     text = formatPost(pick);
   }
 
