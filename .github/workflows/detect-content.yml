@@ -1,0 +1,73 @@
+name: Detect new YouTube content
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 22 * * 0'   # Sun 22:00 UTC = Mon 07:00 JST (weekly)
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    env:
+      TEMP: ${{ runner.temp }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Install yt-dlp
+        run: |
+          mkdir -p "$HOME/.local/bin"
+          curl -fsSL https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o "$HOME/.local/bin/yt-dlp"
+          chmod +x "$HOME/.local/bin/yt-dlp"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Fetch recent uploads per channel
+        run: |
+          declare -A CH=(
+            [3dbibi]=@3DBibi [ducky]=@TheDucky3D [redblueen]=@redblueen
+            [extra3d]=@extra3d537 [adiidiin]=@adiidiin
+          )
+          for k in "${!CH[@]}"; do
+            yt-dlp --flat-playlist --no-warnings \
+              --extractor-args "youtubetab:approximate_date" --playlist-end 15 \
+              --print "%(id)s|%(upload_date)s|%(title)s|%(duration)s" \
+              "https://www.youtube.com/${CH[$k]}/videos" \
+              > "${RUNNER_TEMP}/recent_${k}.txt" || true
+            echo "$k: $(wc -l < "${RUNNER_TEMP}/recent_${k}.txt" 2>/dev/null || echo 0) lines"
+          done
+
+      - name: Detect & draft new tutorials
+        id: detect
+        run: node scripts/detect-new-content.mjs
+
+      - name: Validate build (only if new)
+        if: steps.detect.outputs.count != '0'
+        run: npm run build
+
+      - name: Open review PR
+        if: steps.detect.outputs.count != '0'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto/new-content
+          delete-branch: true
+          commit-message: "Detected ${{ steps.detect.outputs.count }} new YouTube tutorial(s)"
+          title: "🆕 新着チュートリアル ${{ steps.detect.outputs.count }}件（要レビュー）"
+          body: |
+            週次自動検知。下記の新着を下書きとして追加しました。**分類・タイトル・サマリーを確認してマージ**してください（誤りがあれば修正コミットを足してから）。
+
+            ${{ steps.detect.outputs.summary }}
+
+            - 検知元: 3DBibi / Ducky3D / redblueen / Extra3d / adiidiin
+            - 分類は自動（要目視）。アフィリエイト無し・status=active。
+            - マージ後、講座/アドオン追加が無ければOG再生成は不要（チュートリアルはYouTubeサムネ）。
+          labels: auto-content
