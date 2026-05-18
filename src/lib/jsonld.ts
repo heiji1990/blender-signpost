@@ -45,6 +45,7 @@ export function videoLd(d: {
   title: string;
   summary: string;
   thumbnail: string;
+  embedUrl?: string | null;
   uploadDate?: string | null;
 }) {
   const v: Record<string, unknown> = {
@@ -54,7 +55,12 @@ export function videoLd(d: {
     description: d.summary,
     thumbnailUrl: d.thumbnail,
   };
-  if (d.uploadDate && /^\d{4}-\d{2}-\d{2}$/.test(d.uploadDate)) v.uploadDate = d.uploadDate;
+  // VideoObject は contentUrl か embedUrl のどちらかが必須
+  if (d.embedUrl) v.embedUrl = d.embedUrl;
+  // uploadDate は ISO 8601 + タイムゾーン必須（YYYY-MM-DD のみは無効扱い）
+  if (d.uploadDate && /^\d{4}-\d{2}-\d{2}$/.test(d.uploadDate)) {
+    v.uploadDate = `${d.uploadDate}T09:00:00+09:00`;
+  }
   return v;
 }
 

@@ -3,7 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { platformIcons } from '../../../lib/labels';
 import { useTranslations } from '../../../i18n/ui';
-import { getYouTubeThumbnail } from '../../../lib/youtube';
+import { getYouTubeThumbnail, extractYouTubeId } from '../../../lib/youtube';
 import { resolveLink } from '../../../lib/affiliate';
 import { breadcrumb, videoLd } from '../../../lib/jsonld';
 
@@ -24,6 +24,7 @@ const { entry, related } = Astro.props;
 const d = entry.data;
 const { href, rel } = resolveLink(d);
 const ogImage = getYouTubeThumbnail(d.url) ?? undefined;
+const ytId = extractYouTubeId(d.url);
 
 const jsonLd: object[] = [
   breadcrumb([
@@ -33,7 +34,13 @@ const jsonLd: object[] = [
   ]),
 ];
 if (ogImage) {
-  jsonLd.push(videoLd({ title: d.title, summary: d.summary, thumbnail: ogImage, uploadDate: d.publishedAt }));
+  jsonLd.push(videoLd({
+    title: d.title,
+    summary: d.summary,
+    thumbnail: ogImage,
+    embedUrl: ytId ? `https://www.youtube.com/embed/${ytId}` : undefined,
+    uploadDate: d.publishedAt,
+  }));
 }
 
 const levelLabels: Record<string, string> = {
