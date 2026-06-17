@@ -21,8 +21,10 @@ on:
         required: false
         default: false
         type: boolean
-  schedule:
-    - cron: '0 23 * * *'   # Daily 08:00 JST (auto: 偶数日painpoint / 奇数日random)
+  # NOTE: 自動cronは停止中。手動 workflow_dispatch のみ受け付ける。
+  # 再開する場合は下の cron 行を有効化:
+  # schedule:
+  #   - cron: '0 23 * * *'   # Daily 08:00 JST (auto: 偶数日painpoint / 奇数日random)
 
 jobs:
   post:
