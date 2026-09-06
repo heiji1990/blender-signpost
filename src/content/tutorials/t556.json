@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "How to add speedramp transitions in your animations",
+  "url": "https://www.youtube.com/watch?v=acIUzXL3hY8",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "2分",
+  "recommendedOrder": null,
+  "summary": "How to add speedramp transitions in your animations — a recent Blender tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-09-06",
+  "status": "active",
+  "publishedAt": "2026-06-07",
+  "blenderVersion": null
+}

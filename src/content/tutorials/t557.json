@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Default Cube to Stylized Character",
+  "url": "https://www.youtube.com/watch?v=GAaoAtXn8Zg",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling",
+    "cell_look"
+  ],
+  "goals": [],
+  "duration": "5分",
+  "recommendedOrder": null,
+  "summary": "Default Cube to Stylized Character — a recent Blender tutorial by adiidiin.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-09-06",
+  "status": "active",
+  "publishedAt": "2026-09-04",
+  "blenderVersion": null
+}

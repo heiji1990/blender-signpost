@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Retargeting Animations In Blender ",
+  "url": "https://www.youtube.com/watch?v=rMfNiQIJTPM",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "1分",
+  "recommendedOrder": null,
+  "summary": "Retargeting Animations In Blender  — a recent Blender tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-09-06",
+  "status": "active",
+  "publishedAt": "2026-08-24",
+  "blenderVersion": null
+}
