@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "How to Create Abstract Crystal Renders in Blender",
+  "url": "https://www.youtube.com/watch?v=RKz3DdbybVk",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "4分",
+  "recommendedOrder": null,
+  "summary": "How to Create Abstract Crystal Renders in Blender — a recent Blender tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-09-06",
+  "status": "active",
+  "publishedAt": "2026-07-07",
+  "blenderVersion": null
+}

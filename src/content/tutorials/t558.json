@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Stylized Character in Blender 3D Timelapse",
+  "url": "https://www.youtube.com/watch?v=V0iyPwXGtZ8",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling",
+    "cell_look"
+  ],
+  "goals": [],
+  "duration": "9分",
+  "recommendedOrder": null,
+  "summary": "Stylized Character in Blender 3D Timelapse — a recent Blender tutorial by adiidiin.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-09-06",
+  "status": "active",
+  "publishedAt": "2026-06-07",
+  "blenderVersion": null
+}

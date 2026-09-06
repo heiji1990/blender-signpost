@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Real time Caustics In Blender 5.1",
+  "url": "https://www.youtube.com/watch?v=wOyk5V7PyfA",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "11分",
+  "recommendedOrder": null,
+  "summary": "Real time Caustics In Blender 5.1 — a recent Blender tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-09-06",
+  "status": "active",
+  "publishedAt": "2026-06-07",
+  "blenderVersion": "5.1"
+}

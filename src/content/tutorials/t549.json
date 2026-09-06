@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "Compositing for Beginners in Blender",
+  "url": "https://www.youtube.com/watch?v=SJ-vu_nabAg",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "beginner",
+    "intermediate"
+  ],
+  "categories": [
+    "compositing"
+  ],
+  "goals": [],
+  "duration": "10分",
+  "recommendedOrder": null,
+  "summary": "Compositing for Beginners in Blender — a recent Blender tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-09-06",
+  "status": "active",
+  "publishedAt": "2026-08-07",
+  "blenderVersion": null
+}

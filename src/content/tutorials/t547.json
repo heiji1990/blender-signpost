@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Photoreal Metahumans In Blender",
+  "url": "https://www.youtube.com/watch?v=kaDtwG3JimM",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "12分",
+  "recommendedOrder": null,
+  "summary": "Photoreal Metahumans In Blender — a recent Blender tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-09-06",
+  "status": "active",
+  "publishedAt": "2026-08-07",
+  "blenderVersion": null
+}
