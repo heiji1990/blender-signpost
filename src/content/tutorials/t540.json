@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Using Blender Like A Graphic Designer!",
+  "url": "https://www.youtube.com/watch?v=72xChVM08jI",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "15分",
+  "recommendedOrder": null,
+  "summary": "Using Blender Like A Graphic Designer! — a recent Blender tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-09-28",
+  "status": "active",
+  "publishedAt": "2026-09-22",
+  "blenderVersion": null
+}
