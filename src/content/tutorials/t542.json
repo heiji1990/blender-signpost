@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "A passing place, a clip made in Blender 5.2 and stylized with the compositor",
+  "url": "https://www.youtube.com/watch?v=Kj9UAGf7Slo",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "redblueen",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "cell_look",
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "1分",
+  "recommendedOrder": null,
+  "summary": "A passing place, a clip made in Blender 5.2 and stylized with the compositor — a recent Blender tutorial by redblueen.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-10-12",
+  "status": "active",
+  "publishedAt": "2026-10-06",
+  "blenderVersion": "5.2"
+}
