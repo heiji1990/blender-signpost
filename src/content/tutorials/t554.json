@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "3D Character Modeling in Blender ",
+  "url": "https://www.youtube.com/watch?v=cdJJCEXduPo",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "adiidiin",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "modeling"
+  ],
+  "goals": [],
+  "duration": "1分",
+  "recommendedOrder": null,
+  "summary": "3D Character Modeling in Blender  — a recent Blender tutorial by adiidiin.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-10-25",
+  "status": "active",
+  "publishedAt": "2026-10-17",
+  "blenderVersion": null
+}
