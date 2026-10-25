@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Cool 3D Transition Shader Blender",
+  "url": "https://www.youtube.com/watch?v=bM4nNdi6f7M",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "1分",
+  "recommendedOrder": null,
+  "summary": "Cool 3D Transition Shader Blender — a recent Blender tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-10-25",
+  "status": "active",
+  "publishedAt": "2026-10-21",
+  "blenderVersion": null
+}

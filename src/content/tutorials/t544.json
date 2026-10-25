@@ -1,0 +1,28 @@
+{
+  "type": "tutorial",
+  "title": "3 Product Lighting Tricks That Made Me Pro",
+  "url": "https://www.youtube.com/watch?v=yFxhEoFs3CI",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate",
+    "advanced"
+  ],
+  "categories": [
+    "lighting"
+  ],
+  "goals": [],
+  "duration": "3分",
+  "recommendedOrder": null,
+  "summary": "3 Product Lighting Tricks That Made Me Pro — a recent Blender tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-10-25",
+  "status": "active",
+  "publishedAt": "2026-10-12",
+  "blenderVersion": null
+}
