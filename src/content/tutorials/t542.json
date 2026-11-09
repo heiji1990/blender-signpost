@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Making Massive Materials in Blender (Tutorial)",
+  "url": "https://www.youtube.com/watch?v=dk4RahBkDkQ",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "19分",
+  "recommendedOrder": null,
+  "summary": "Making Massive Materials in Blender (Tutorial) — a recent Blender tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-11-09",
+  "status": "active",
+  "publishedAt": "2026-10-28",
+  "blenderVersion": null
+}
