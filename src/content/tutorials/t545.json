@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "Blender 5.3 Is Here: 10 Features That Actually Matter",
+  "url": "https://www.youtube.com/watch?v=H7wBBf0e6hU",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Extra 3d",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "photorealistic"
+  ],
+  "goals": [],
+  "duration": "11分",
+  "recommendedOrder": null,
+  "summary": "Blender 5.3 Is Here: 10 Features That Actually Matter — a recent Blender tutorial by Extra 3d.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-11-16",
+  "status": "active",
+  "publishedAt": "2026-11-15",
+  "blenderVersion": "5.3"
+}

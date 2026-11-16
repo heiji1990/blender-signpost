@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "A Color Trick Every Artist Needs To Try",
+  "url": "https://www.youtube.com/watch?v=9rn3_US5gFM",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "16分",
+  "recommendedOrder": null,
+  "summary": "A Color Trick Every Artist Needs To Try — a recent Blender tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-11-16",
+  "status": "active",
+  "publishedAt": "2026-11-15",
+  "blenderVersion": null
+}
