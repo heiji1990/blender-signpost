@@ -1,0 +1,27 @@
+{
+  "type": "tutorial",
+  "title": "You Should Learn Motion Graphics in Blender 2027",
+  "url": "https://www.youtube.com/watch?v=gI1ibw26nec",
+  "platform": "youtube",
+  "priceType": "free",
+  "creator": "Ducky 3D",
+  "language": "en",
+  "level": [
+    "intermediate"
+  ],
+  "categories": [
+    "motion_design"
+  ],
+  "goals": [],
+  "duration": "11分",
+  "recommendedOrder": null,
+  "summary": "You Should Learn Motion Graphics in Blender 2027 — a recent Blender tutorial by Ducky 3D.",
+  "comment": null,
+  "affiliateUrl": null,
+  "isAffiliate": false,
+  "isPr": false,
+  "updatedAt": "2026-11-23",
+  "status": "active",
+  "publishedAt": "2026-11-20",
+  "blenderVersion": null
+}
